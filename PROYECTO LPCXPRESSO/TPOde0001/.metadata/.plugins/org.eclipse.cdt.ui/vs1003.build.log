@@ -1,0 +1,22 @@
+18:51:17 **** Build of configuration Debug for project vs1003 ****
+make -r all 
+Building file: ../src/vs1003.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MyLib\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\vs1003\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/vs1003.d" -MT"src/vs1003.o" -MT"src/vs1003.d" -o "src/vs1003.o" "../src/vs1003.c"
+Finished building: ../src/vs1003.c
+ 
+Building target: libvs1003.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libvs1003.a"  ./src/vs1003.o   
+c:\nxp\LPCXpresso_8.2.2_650\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libvs1003.a
+Finished building target: libvs1003.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libvs1003.a" ; # arm-none-eabi-objdump -h -S "libvs1003.a" >"libvs1003.lss"
+   text	   data	    bss	    dec	    hex	filename
+    684	      0	      0	    684	    2ac	vs1003.o (ex libvs1003.a)
+ 
+
+18:51:17 Build Finished (took 344ms)
+

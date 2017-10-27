@@ -1,0 +1,34 @@
+18:51:11 **** Build of configuration Debug for project TFT ****
+make -r all 
+Building file: ../src/TFT.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MyLib\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\TFT\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"src/TFT.d" -MT"src/TFT.o" -MT"src/TFT.d" -o "src/TFT.o" "../src/TFT.c"
+Finished building: ../src/TFT.c
+ 
+Building file: ../src/Touch.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MyLib\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\TFT\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"src/Touch.d" -MT"src/Touch.o" -MT"src/Touch.d" -o "src/Touch.o" "../src/Touch.c"
+Finished building: ../src/Touch.c
+ 
+Building file: ../src/font.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MyLib\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\TFT\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"src/font.d" -MT"src/font.o" -MT"src/font.d" -o "src/font.o" "../src/font.c"
+Finished building: ../src/font.c
+ 
+Building target: libTFT.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libTFT.a"  ./src/TFT.o ./src/Touch.o ./src/font.o   
+c:\nxp\LPCXpresso_8.2.2_650\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libTFT.a
+Finished building target: libTFT.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libTFT.a" ; # arm-none-eabi-objdump -h -S "libTFT.a" >"libTFT.lss"
+   text	   data	    bss	    dec	    hex	filename
+   3500	    128	      0	   3628	    e2c	TFT.o (ex libTFT.a)
+    400	      0	      0	    400	    190	Touch.o (ex libTFT.a)
+      0	   4180	      0	   4180	   1054	font.o (ex libTFT.a)
+ 
+
+18:51:11 Build Finished (took 649ms)
+

@@ -1,0 +1,11 @@
+01:24:26 **** Build of configuration Debug for project MP3 ****
+make -r all 
+Building file: ../src/Pendrive.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p00_LPC17xx -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MP3\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\MyLib\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\Application" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\FatFs" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\FatFs\option" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\SD" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\USBHost" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\USBHost\Host" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\USBHost\Include" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Storage\USBHost\MassStorage" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/Pendrive.d" -MT"src/Pendrive.o" -MT"src/Pendrive.d" -o "src/Pendrive.o" "../src/Pendrive.c"
+../src/Pendrive.c:7:21: fatal error: LPC17xx.h: No such file or directory
+compilation terminated.
+make: *** [src/Pendrive.o] Error 1
+
+01:24:26 Build Finished (took 180ms)
+

@@ -1,0 +1,65 @@
+18:56:44 **** Build of configuration Debug for project lpc176x ****
+make -r all 
+
+main.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/main.o,-MF,obj/main.d main.c -o obj/main.o
+
+startup176x.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/startup176x.o,-MF,obj/startup176x.d startup176x.c -o obj/startup176x.o
+
+uart176x.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/uart176x.o,-MF,obj/uart176x.d uart176x.c -o obj/uart176x.o
+
+rtc176x.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/rtc176x.o,-MF,obj/rtc176x.d rtc176x.c -o obj/rtc176x.o
+
+sound.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/sound.o,-MF,obj/sound.d sound.c -o obj/sound.o
+
+xprintf.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/xprintf.o,-MF,obj/xprintf.d xprintf.c -o obj/xprintf.o
+
+mmc_ssp.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/mmc_ssp.o,-MF,obj/mmc_ssp.d mmc_ssp.c -o obj/mmc_ssp.o
+
+ff.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/ff.o,-MF,obj/ff.d ff.c -o obj/ff.o
+
+ffunicode.c :
+arm-none-eabi-gcc -c -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/ffunicode.o,-MF,obj/ffunicode.d ffunicode.c -o obj/ffunicode.o
+
+Linking...
+arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mthumb-interwork -I. -std=gnu89 -gdwarf-2 -Os -Wall -Wextra   -Wp,-MM,-MP,-MT,obj/test1768.o,-MF,obj/test1768.d    obj/main.o obj/startup176x.o obj/uart176x.o obj/rtc176x.o obj/sound.o obj/xprintf.o obj/mmc_ssp.o obj/ff.o obj/ffunicode.o -o obj/test1768.elf -nostartfiles -Wl,-Map=obj/test1768.map,--cref,--gc-sections -lc -lgcc   -lm -TLPC1768.ld
+
+arm-none-eabi-objcopy -O ihex obj/test1768.elf obj/test1768.hex
+
+arm-none-eabi-objdump -h -S -C obj/test1768.elf > obj/test1768.lst
+
+arm-none-eabi-nm -n obj/test1768.elf > obj/test1768.sym
+
+arm-none-eabi-size -A obj/test1768.elf
+obj/test1768.elf  :
+section             size        addr
+.text              84688           0
+.data                  4   268435456
+.bss               19476   268435460
+.stack              2048   268454936
+.ahbram0               0   537378816
+.ahbram1               0   537395200
+.ahbram                0   537378816
+.comment             110           0
+.ARM.attributes       51           0
+.debug_aranges       296           0
+.debug_info        36627           0
+.debug_abbrev       4306           0
+.debug_line         7908           0
+.debug_frame        3364           0
+.debug_str          2892           0
+.debug_loc         35293           0
+.debug_ranges        920           0
+Total             197983
+
+
+
+18:56:47 Build Finished (took 3s.191ms)
+

@@ -1,0 +1,34 @@
+#include "Aplicacion.h"
+
+//void SysTick_Handler ( void );
+//extern volatile uint8_t led;
+extern volatile uint8_t delayteclado;
+extern volatile uint8_t flagIntExt;
+extern void disk_timerproc(void);
+extern volatile uint8_t estado;
+
+void SysTick_Handler(void)
+{
+	static uint16_t prueba=0;
+	if (delayteclado){
+		delayteclado--;
+	}else{
+		DriverTeclado();
+	}
+	Display((RTC_MIN*1000)+RTC_SEC);
+	BarridoDisplay();
+
+	prueba++;
+	if (prueba==500)prueba=0;
+	if ((estado==REPOSO)&&(!prueba)){
+		TooglePIN(LED1);
+		TooglePIN(LED2);
+		TooglePIN(LED3);
+	}
+
+
+
+
+	disk_timerproc();
+
+}

@@ -1,0 +1,13 @@
+#include "Aplicacion.h"
+
+//void SysTick_Handler ( void );
+//extern volatile uint8_t led;
+
+extern volatile uint8_t flagIntExt;
+extern void disk_timerproc(void);
+void SysTick_Handler(void)
+{
+	DriverTeclado();
+	disk_timerproc();
+
+}

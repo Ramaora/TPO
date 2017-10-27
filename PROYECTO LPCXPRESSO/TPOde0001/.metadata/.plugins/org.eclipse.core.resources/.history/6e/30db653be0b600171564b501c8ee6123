@@ -1,0 +1,49 @@
+/**
+ \file		: FW_isr.c
+ \brief     : Isr de interrupciones externas
+ \details   :
+ \author    : GOS
+ \date 	    : 2014.05.06
+*/
+
+#include "Aplicacion.h"
+
+/**
+ * \fn void TIMER0_IRQHandler (void)
+ * \brief ISR de timer0
+ * \details Limpia flag y guarda captura Ch0 para ser usada en otra parte del programa
+ * \author GOS
+ * \date   2014.05.06
+ * \param [in] void
+ * \return void
+ * */
+
+void TIMER0_IRQHandler (void)
+{
+	static uint32_t i=0;
+	uint16_t sample;
+
+	if(T0IR & MR0)
+	{
+		// Si interrumpio match 0
+		T0IR |= MR0;
+
+		Write_Dac(bufferwav[i]);
+		i++;
+		printf ("%d\n",bufferwav[i]);
+		i%=cant;
+
+	}
+}
+
+
+/**
+ * \fn void TIMER0_IRQHandler (void)
+ * \brief ISR de timer1
+ * \details Limpia flags de match 0 a match 4 segun corresponda y marca evento
+ * \author GOS
+ * \date   2014.05.06
+ * \param [in] void
+ * \return void
+ * */
+

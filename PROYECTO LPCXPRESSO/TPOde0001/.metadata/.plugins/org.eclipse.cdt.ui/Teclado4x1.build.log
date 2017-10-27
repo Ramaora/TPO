@@ -1,0 +1,71 @@
+12:56:41 **** Build of configuration Debug for project Teclado4x1 ****
+make -r all 
+Building file: ../src/inc/FW_InitExpansion2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/inc/FW_InitExpansion2.d" -MT"src/inc/FW_InitExpansion2.o" -MT"src/inc/FW_InitExpansion2.d" -o "src/inc/FW_InitExpansion2.o" "../src/inc/FW_InitExpansion2.c"
+Finished building: ../src/inc/FW_InitExpansion2.c
+ 
+Building file: ../src/PRimitivas/KitInfo2PR_Teclado.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/PRimitivas/KitInfo2PR_Teclado.d" -MT"src/PRimitivas/KitInfo2PR_Teclado.o" -MT"src/PRimitivas/KitInfo2PR_Teclado.d" -o "src/PRimitivas/KitInfo2PR_Teclado.o" "../src/PRimitivas/KitInfo2PR_Teclado.c"
+Finished building: ../src/PRimitivas/KitInfo2PR_Teclado.c
+ 
+Building file: ../src/PRimitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/PRimitivas/PR_7Seg.d" -MT"src/PRimitivas/PR_7Seg.o" -MT"src/PRimitivas/PR_7Seg.d" -o "src/PRimitivas/PR_7Seg.o" "../src/PRimitivas/PR_7Seg.c"
+Finished building: ../src/PRimitivas/PR_7Seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitGPIOBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitGPIOBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitGPIOBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o" "../src/FW_Inicializaciones/FW_InitGPIOBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitGPIOBaseBoard.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitKit_principal.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitKit_principal.d" -MT"src/FW_Inicializaciones/FW_InitKit_principal.o" -MT"src/FW_Inicializaciones/FW_InitKit_principal.d" -o "src/FW_Inicializaciones/FW_InitKit_principal.o" "../src/FW_Inicializaciones/FW_InitKit_principal.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitKit_principal.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitOscilador.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitOscilador.d" -MT"src/FW_Inicializaciones/FW_InitOscilador.o" -MT"src/FW_Inicializaciones/FW_InitOscilador.d" -o "src/FW_Inicializaciones/FW_InitOscilador.o" "../src/FW_Inicializaciones/FW_InitOscilador.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitOscilador.c
+ 
+Building file: ../src/FW_Drivers/FW_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_7Seg.d" -MT"src/FW_Drivers/FW_7Seg.o" -MT"src/FW_Drivers/FW_7Seg.d" -o "src/FW_Drivers/FW_7Seg.o" "../src/FW_Drivers/FW_7Seg.c"
+Finished building: ../src/FW_Drivers/FW_7Seg.c
+ 
+Building file: ../src/FW_Drivers/FW_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_GPIO.d" -MT"src/FW_Drivers/FW_GPIO.o" -MT"src/FW_Drivers/FW_GPIO.d" -o "src/FW_Drivers/FW_GPIO.o" "../src/FW_Drivers/FW_GPIO.c"
+Finished building: ../src/FW_Drivers/FW_GPIO.c
+ 
+Building file: ../src/FW_Drivers/FW_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_Systick.d" -MT"src/FW_Drivers/FW_Systick.o" -MT"src/FW_Drivers/FW_Systick.d" -o "src/FW_Drivers/FW_Systick.o" "../src/FW_Drivers/FW_Systick.c"
+Finished building: ../src/FW_Drivers/FW_Systick.c
+ 
+Building file: ../src/FW_Drivers/KitInfo2FW_Teclado.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/KitInfo2FW_Teclado.d" -MT"src/FW_Drivers/KitInfo2FW_Teclado.o" -MT"src/FW_Drivers/KitInfo2FW_Teclado.d" -o "src/FW_Drivers/KitInfo2FW_Teclado.o" "../src/FW_Drivers/KitInfo2FW_Teclado.c"
+Finished building: ../src/FW_Drivers/KitInfo2FW_Teclado.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\inc" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\Teclado4x1\src\PRimitivas" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: Teclado4x1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Teclado4x1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Teclado4x1_Debug.ld" -o "Teclado4x1.axf"  ./src/inc/FW_InitExpansion2.o  ./src/PRimitivas/KitInfo2PR_Teclado.o ./src/PRimitivas/PR_7Seg.o  ./src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o ./src/FW_Inicializaciones/FW_InitKit_principal.o ./src/FW_Inicializaciones/FW_InitOscilador.o ./src/FW_Inicializaciones/cr_startup_lpc176x.o  ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/KitInfo2FW_Teclado.o  ./src/main.o   
+Finished building target: Teclado4x1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Teclado4x1.axf"; # arm-none-eabi-objcopy -O binary "Teclado4x1.axf" "Teclado4x1.bin" ; checksum -p LPC1769 -d "Teclado4x1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   5396	     12	    348	   5756	   167c	Teclado4x1.axf
+ 
+
+12:56:42 Build Finished (took 1s.858ms)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Rama\Downloads\2-Display7seg_UpDown_Exp3-2016.zip"/>
+			<item value="C:\Users\Rama\Downloads\andresdemski-proyectoinfo2-b53ead005583.zip"/>
+			<item value="C:\Users\Rama\Downloads\Teclado4x1.zip"/>
+			<item value="C:\Users\Rama\Desktop\IntegradorMayo hasta Systick.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item value="C:\Users\Rama\Downloads" key="dirname"/>
+	</section>
+</section>

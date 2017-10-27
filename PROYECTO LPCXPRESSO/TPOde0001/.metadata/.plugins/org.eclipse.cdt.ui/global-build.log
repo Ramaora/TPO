@@ -1,0 +1,21 @@
+18:49:55 **** Incremental Build of configuration Debug for project IntegradorMayo16 ****
+make -r all 
+Building file: ../src/FW_Drivers/FW_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\IntegradorMayo16\src\FW_Drivers" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\IntegradorMayo16\src\FW_Inicializaciones" -I"C:\Users\Rama\Documents\LPCXpresso_8.2.2_650\TPOde0001\IntegradorMayo16\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_Systick.d" -MT"src/FW_Drivers/FW_Systick.o" -MT"src/FW_Drivers/FW_Systick.d" -o "src/FW_Drivers/FW_Systick.o" "../src/FW_Drivers/FW_Systick.c"
+Finished building: ../src/FW_Drivers/FW_Systick.c
+ 
+Building target: IntegradorMayo16.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="IntegradorMayo16.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "IntegradorMayo16_Debug.ld" -o "IntegradorMayo16.axf"  ./src/FW_Inicializaciones/FW_InitExpansion2.o ./src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o ./src/FW_Inicializaciones/FW_InitKit_principal.o ./src/FW_Inicializaciones/FW_InitOscilador.o ./src/FW_Inicializaciones/crp.o  ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/FW_Timers.o ./src/FW_Drivers/KitInfo2FW_Teclado.o ./src/FW_Drivers/PR_7Seg.o ./src/FW_Drivers/cr_startup_lpc176x.o  ./src/IntegradorMayo16.o ./src/ff.o ./src/ffsystem.o ./src/ffunicode.o ./src/mmc_ssp.o ./src/rtc176x.o ./src/sound.o ./src/startup176x.o ./src/uart176x.o ./src/xprintf.o   
+Finished building target: IntegradorMayo16.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "IntegradorMayo16.axf"; # arm-none-eabi-objcopy -v -O binary "IntegradorMayo16.axf" "IntegradorMayo16.bin" ; # checksum -p LPC1769 -d "IntegradorMayo16.bin";
+   text	   data	    bss	    dec	    hex	filename
+  81808	     20	   5204	  87032	  153f8	IntegradorMayo16.axf
+ 
+18:50:10 **** Incremental Build of configuration Debug for project IntegradorMayo16 ****
+make -r all 
+make: Nothing to be done for `all'.
