@@ -154,6 +154,7 @@ void InicializarKit ( void )
 	Inicializar_Teclado();
 	Inicializar_Relay();
 	Inicializar_Display7s();
+	Inic_LCD();
 	SetPIN(LED1,OFF);
 	SetPIN(LED2,OFF);
 	SetPIN(LED3,OFF);

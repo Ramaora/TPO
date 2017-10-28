@@ -23,6 +23,7 @@
 	#include "sound.h"
 	#include <stdio.h>
     #include "FW_Display-Expansion2.h"
+	#include "lcd.h"
 
 	#define	INVIERTO_LED1_EXP1	TooglePIN (LED1_EXP1)
 	#define	INVIERTO_LED3_EXP1	TooglePIN (LED3_EXP1)
@@ -50,6 +51,8 @@
 	#define 	RISING 		0
 	#define		FALLING		1
 	#define REPRODUCIENDO 1
+
+	#define LCD_ANCHO	16
 
 	uint8_t getkey(void);
 	void Init_Dac(void);
