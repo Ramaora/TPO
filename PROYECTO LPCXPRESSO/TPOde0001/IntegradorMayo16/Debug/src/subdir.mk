@@ -5,7 +5,6 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/IntegradorMayo16.c \
-../src/LCDMainExample.c \
 ../src/ff.c \
 ../src/ffsystem.c \
 ../src/ffunicode.c \
@@ -18,7 +17,6 @@ C_SRCS += \
 
 OBJS += \
 ./src/IntegradorMayo16.o \
-./src/LCDMainExample.o \
 ./src/ff.o \
 ./src/ffsystem.o \
 ./src/ffunicode.o \
@@ -31,7 +29,6 @@ OBJS += \
 
 C_DEPS += \
 ./src/IntegradorMayo16.d \
-./src/LCDMainExample.d \
 ./src/ff.d \
 ./src/ffsystem.d \
 ./src/ffunicode.d \

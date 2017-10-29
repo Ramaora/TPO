@@ -54,6 +54,16 @@ volatile uint8_t ArchivoActual=0;
 volatile uint8_t delayteclado=0;
 volatile uint8_t tecla=NO_KEY;
 
+//lcd
+volatile unsigned int inxInLCD;
+volatile unsigned int inxOutLCD;
+volatile unsigned int cantidadColaLCD;
+volatile int demoraLCD;
+uint8_t bufferLCD[100];
+volatile uint8_t ptrLecturaLCD = 0;
+volatile uint8_t ptrEscrituraLCD = 0;
+
+uint32_t f_tick_rtc  = 6000;
 
 int main(void) {
 	InicializarKit();
@@ -62,6 +72,16 @@ int main(void) {
 	uint8_t header [44];
 
 
+	// Prueba del display
+
+	unsigned char i;
+	for(i = 0; i < 80; i++){
+		WDato(0x41);
+	}
+
+	WComando8(LCD_CLEAR);
+	WComando8(LCD_HOME1);
+	WString("   Hola mundo...");
 
 	char line[100]; /* Line buffer */
 	int j=0;

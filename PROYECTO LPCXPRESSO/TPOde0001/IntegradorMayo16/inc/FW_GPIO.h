@@ -24,6 +24,10 @@
 	#define 	ENTRADA			0
 	#define 	SALIDA			1
 
+    // Modo OD
+    	#define		NORMAL			0
+    	#define		OPEN_DRAIN		1
+
 	// identificadores de los puertos
 	#define 	PORT0			0
 	#define 	PORT1			1
