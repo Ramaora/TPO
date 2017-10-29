@@ -303,7 +303,7 @@ void WString (uint8_t *ptr)
 void Inic_LCD(void)
 {
 	Inic_PinesLCD();		// Configura pines de interfaz con LCD
-	LCDDelay(400);			// Demora inicial
+	LCDDelay(20);			// Demora inicial
 
 	LCDWaitLong(15);		// Funsion Set para 4 bits
 	WComando4(MODO_8BITS);

@@ -5,6 +5,8 @@
 extern volatile uint8_t delayteclado;
 extern volatile uint8_t flagIntExt;
 extern void disk_timerproc(void);
+extern volatile int demoraLCD;
+extern uint32_t f_tick_rtc;
 
 extern volatile uint8_t estado;
 
@@ -30,5 +32,17 @@ void SysTick_Handler(void)
 	}
 
 	disk_timerproc();
+
+	if ( demoraLCD ){
+
+		demoraLCD--;
+
+	}
+
+	if ( f_tick_rtc ){
+
+		f_tick_rtc--;
+
+	}
 
 }
