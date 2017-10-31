@@ -41,8 +41,10 @@
 
 	#define		DIGITOS				6
 
-	#define		DSP_ROJO			0				//!< Display rojo
-	#define		DSP_VERDE			1
+	//#define		DSP_ROJO		0				//!< Display rojo
+	//#define		DSP_VERDE		1
+	#define		SEC					0
+	#define		MIN					1
 	#define 	DOSDISPLAYS
 
 	/** ----------------------------------------------------------------------

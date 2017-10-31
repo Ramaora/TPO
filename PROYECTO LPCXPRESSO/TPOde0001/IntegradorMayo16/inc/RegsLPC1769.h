@@ -873,7 +873,7 @@ typedef struct
 #define	QEIIEC		(*(volatile uint32_t*)0x400BCFD8)
 
 /* RTC */
-#define	RTC_ILR		(*(volatile uint32_t*)0x40024000)
+#define	RTCILR		(*(volatile uint32_t*)0x40024000UL)
 #define	RTC_CCR		(*(volatile uint32_t*)0x40024008)
 #define	RTC_CIIR	(*(volatile uint32_t*)0x4002400C)
 #define	RTC_AMR		(*(volatile uint32_t*)0x40024010)
@@ -905,6 +905,11 @@ typedef struct
 #define	RTC_ALDOY	(*(volatile uint32_t*)0x40024074)
 #define	RTC_ALMON	(*(volatile uint32_t*)0x40024078)
 #define	RTC_ALYEAR	(*(volatile uint32_t*)0x4002407C)
+
+
+
+
+
 
 /* WDT */
 #define	WDMOD		(*(volatile uint32_t*)0x40000000)

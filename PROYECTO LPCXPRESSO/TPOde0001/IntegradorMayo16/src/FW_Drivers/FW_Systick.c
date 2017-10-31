@@ -18,8 +18,13 @@ void SysTick_Handler(void)
 	}else{
 		DriverTeclado();
 	}
-	Display(RTC_SEC,0);
-	Display(RTC_MIN,1);
+	//Display(RTC_SEC,0);
+	//Display(RTC_MIN,1);
+
+	Display(RTC_SEC,SEC);
+	Display(RTC_MIN,MIN);
+
+
 
 	if (estado!=REPOSO){
 	BarridoDisplay();

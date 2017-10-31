@@ -81,7 +81,7 @@ int main(void) {
 
 	WComando8(LCD_CLEAR);
 	WComando8(LCD_HOME1);
-	WString("   Hola mundo...");
+	WString("Reproductor WAV");
 
 	char line[100]; /* Line buffer */
 	int j=0;
@@ -119,6 +119,10 @@ int main(void) {
 
 						if (tecla==1){
 								ArrancarReproduccion();
+								WComando8(LCD_CLEAR);
+								WComando8(LCD_HOME1);
+								WString(FileList[ArchivoActual]);
+
 									}
 						break;
 
@@ -127,15 +131,24 @@ int main(void) {
 
 					if (tecla==1){
 						PausarReproduccion();
+						WComando8(LCD_CLEAR);
+						WComando8(LCD_HOME1);
+						WString(FileList[ArchivoActual]);
 						break;
 					}
 					if (tecla==2){
 							AnteriorTema();
+							WComando8(LCD_CLEAR);
+							WComando8(LCD_HOME1);
+							WString(FileList[ArchivoActual]);
 
 						break;
 					}
 						if (tecla==3){
 								SiguienteTema();
+								WComando8(LCD_CLEAR);
+								WComando8(LCD_HOME1);
+								WString(FileList[ArchivoActual]);
 						break;
 
 					}
