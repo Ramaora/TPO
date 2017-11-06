@@ -58,3 +58,8 @@ Temporary Items
 *.lock
 
 *.ini
+
+# qt
+
+*.autosave
+*.user
