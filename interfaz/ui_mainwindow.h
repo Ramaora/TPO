@@ -36,6 +36,7 @@ public:
     QHBoxLayout *horizontalLayout_3;
     QVBoxLayout *verticalLayout;
     QLabel *LABELCANCION;
+    QComboBox *listacanciones;
     QSpacerItem *verticalSpacer;
     QHBoxLayout *horizontalLayout_2;
     QHBoxLayout *horizontalLayout;
@@ -83,6 +84,11 @@ public:
         LABELCANCION->setFont(font);
 
         verticalLayout->addWidget(LABELCANCION);
+
+        listacanciones = new QComboBox(layoutWidget);
+        listacanciones->setObjectName(QStringLiteral("listacanciones"));
+
+        verticalLayout->addWidget(listacanciones);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 

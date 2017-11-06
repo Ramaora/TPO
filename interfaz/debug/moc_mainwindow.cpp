@@ -77,7 +77,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->on_pushButton_clicked(); break;
         case 1: _t->onDatosRecibidos(); break;
-        case 2: _t->maqestado((*reinterpret_cast< QByteArray(*)>(_a[1]))); break;
+        case 2: _t->maqestado((*reinterpret_cast< const QByteArray(*)>(_a[1]))); break;
         default: ;
         }
     }

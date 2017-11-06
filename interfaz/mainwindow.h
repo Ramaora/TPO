@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#define SEP_VALUE ','
 
 
 namespace Ui {
@@ -17,7 +17,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     void EnumerarPuertos(void);
-//    void separarNombres(const QByteArray);
+    void llenarComboboxTemas(QByteArray);
 
 
 

@@ -3,6 +3,7 @@
 #include <QPixmap>
 #include <QByteArray>
 #include <QtSerialPort>
+#include <QByteArrayList>
 QSerialPort* puerto;
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -69,15 +70,23 @@ void MainWindow::onDatosRecibidos(){
     int cant =puerto->bytesAvailable();
     bytes.resize(cant);
     puerto->read(bytes.data(),bytes.size());
-    word.append(&bytes);
+    word.append(bytes);
     if(word.startsWith("%")&&word.endsWith("$")){
-        maqestado(&word);
+        maqestado(word);
         word.clear();
         word.resize(0);
     }
 }
-void MainWindow::separarNombres(const QByteArray lista){
-    QByteArray
+void MainWindow::llenarComboboxTemas(QByteArray nombres){
+    nombres.remove(0,1);
+    nombres.chop(1);
+    QByteArrayList lista;
+    lista = nombres.split(SEP_VALUE);
+    while(!lista.isEmpty()){
+        ui->listacanciones->addItem(lista.first());
+        lista.removeFirst();
+    }return;
+
 }
 void MainWindow::maqestado(const QByteArray data){
     if (data.contains("%ARRANCAR$")){
@@ -92,11 +101,11 @@ void MainWindow::maqestado(const QByteArray data){
        ui->LABELCANCION->setText("ANTERIOR");
        return;
     }
-    if (data.contains("%PAUSE$")){
-       ui->LABELCANCION->setText("ANTERIOR");
+    if (data.contains("%PAUSAR$")){
+       ui->LABELCANCION->setText("PAUSA");
        return;
     }else{
-       separarNombres(&data);
+       llenarComboboxTemas(data);
        return;
     }
 }
