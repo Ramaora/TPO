@@ -25,6 +25,7 @@
     #include "FW_Display-Expansion2.h"
 	#include "lcd.h"
 
+
 	#define	INVIERTO_LED1_EXP1	TooglePIN (LED1_EXP1)
 	#define	INVIERTO_LED3_EXP1	TooglePIN (LED3_EXP1)
 	#define	INVIERTO_LED5_EXP1	TooglePIN (LED5_EXP1)
@@ -67,6 +68,7 @@
 	void Inicializar_Display7s( void );
 	void BarridoDisplay(void);
 	void Display(uint16_t,uint8_t);
+	void InitUART0 (void);
 
 
 #endif /* APLICACION_H_ */

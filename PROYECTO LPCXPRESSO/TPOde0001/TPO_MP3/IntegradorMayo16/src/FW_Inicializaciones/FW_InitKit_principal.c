@@ -146,6 +146,7 @@ void InicTimer1(void){
 void InicializarKit ( void )
 {
 	InicPLL();
+	InitUART0 ();
 	ApagarTimer0();
 	InicTimer0();
 	ApagarTimer0();
