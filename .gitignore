@@ -25,23 +25,35 @@ $RECYCLE.BIN/
 # OSX
 # =========================
 
-.DS_Store
-.AppleDouble
-.LSOverride
+*.DS_Store
+*.AppleDouble
+*.LSOverride
 
 # Thumbnails
-._*
+*._*
 
 # Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+*.Spotlight-V100
+*.Trashes
 
 # Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
+*.AppleDB
+*.AppleDesktop
 Network Trash Folder
 Temporary Items
-.apdisk
+*.apdisk
 
-.xml
-.cproyect
+*.xml
+*.cproyect
+*.index
+*.history
+*.xmi
+*.prefs
+*.snap
+*.resources
+*.location
+*.sc
+*.log
+*.pdom
+*.lock
+
