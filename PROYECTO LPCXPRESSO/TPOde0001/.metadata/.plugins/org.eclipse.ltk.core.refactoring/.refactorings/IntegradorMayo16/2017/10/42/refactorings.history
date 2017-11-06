@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;IntegradorMayo16/inc/LPC176x.h&apos; to &apos;RegsLPC17xx.h&apos;" description="Rename resource &apos;LPC176x.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/LPC176x.h" name="RegsLPC17xx.h" stamp="1508687322148" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;IntegradorMayo16/inc/RegsLPC17xx.h&apos; to &apos;RegsLPC1769.h&apos;" description="Rename resource &apos;RegsLPC17xx.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/RegsLPC17xx.h" name="RegsLPC1769.h" stamp="1508687342773" updateReferences="true"/>
-</session>

@@ -1,6 +1,0 @@
-13:01:03 **** Build of configuration Debug for project MyLib ****
-make -r all 
-make: Nothing to be done for `all'.
-
-13:01:03 Build Finished (took 80ms)
-

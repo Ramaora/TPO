@@ -1,6 +1,0 @@
-01:24:27 **** Build of configuration Debug for project Storage ****
-make -r all 
-make: Nothing to be done for `all'.
-
-01:24:27 Build Finished (took 76ms)
-
