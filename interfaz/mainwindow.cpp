@@ -27,10 +27,10 @@ MainWindow::MainWindow(QWidget *parent) :
     EnumerarPuertos();
     connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
 
-    QPixmap pix("C:/Users/Rama/Documents/interfaz/sprites/Logo.jpg");
+    QPixmap pix("sprites/Logo.jpg");
     ui->logo->setPixmap(pix);
 
-    QPixmap pixmap("C:/Users/Rama/Documents/interfaz/sprites/play.png");
+    QPixmap pixmap("sprites/play.png");
     QIcon ButtonIcon(pixmap);
     ui->pushButton->setIcon(ButtonIcon);
 }
@@ -53,11 +53,11 @@ void MainWindow::on_pushButton_clicked()
 {
     static bool i=true;
     if (i){
-        QPixmap pixmap("C:/Users/Rama/Documents/interfaz/sprites/pause.png");
+        QPixmap pixmap("sprites/pause.png");
         QIcon ButtonIcon(pixmap);
         ui->pushButton->setIcon(ButtonIcon);
     }else {
-        QPixmap pixmap("C:/Users/Rama/Documents/interfaz/sprites/play.png");
+        QPixmap pixmap("sprites/play.png");
         QIcon ButtonIcon(pixmap);
         ui->pushButton->setIcon(ButtonIcon);
     }
