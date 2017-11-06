@@ -32,3 +32,5 @@ HEADERS += \
 
 FORMS += \
         mainwindow.ui
+
+QT += serialport

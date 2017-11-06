@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+
+
 namespace Ui {
 class MainWindow;
 }
@@ -14,11 +16,17 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    void EnumerarPuertos(void);
+
+
+
 
 private slots:
     void on_pushButton_clicked();
+    void onDatosRecibidos();
+    void maqestado(QByteArray);
 
-private:
+private:  
     Ui::MainWindow *ui;
 };
 
