@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    puerto=new QSerialPort("COM1");
+    puerto=new QSerialPort("COM3");
 
     puerto->setBaudRate(QSerialPort::Baud9600);
     puerto->setDataBits(QSerialPort::DataBits::Data8);
@@ -70,19 +70,31 @@ void MainWindow::onDatosRecibidos(){
     bytes.resize(cant);
     puerto->read(bytes.data(),bytes.size());
     m_datos_recibidos+=bytes.size();
-    ui->LABELCANCION->setText("AGUANTEELPITY");
     maqestado(bytes);
 
 
 }
 
 void MainWindow::maqestado(QByteArray data){
-    if (data.contains("&s.")){
-       ui->LABELCANCION->setText("HOLA TODO BIEN");
-    }else {
+    if (data.contains("%ARRANCAR$")){
+       ui->LABELCANCION->setText("ARRANCAR");
+       return;
+    }
+    if (data.contains("%SIGUIENTE$")){
+       ui->LABELCANCION->setText("SIGUIENTE");
+       return;
+    }
+    if (data.contains("%ANTERIOR$")){
+       ui->LABELCANCION->setText("ANTERIOR");
+       return;
+    }
+    if (data.contains("%PAUSE")){
+       ui->LABELCANCION->setText("ANTERIOR");
+       return;
+    }
+
 
     }
-}
 
 
 
