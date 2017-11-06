@@ -4,7 +4,6 @@
 #include <QByteArray>
 #include <QtSerialPort>
 QSerialPort* puerto;
-int m_datos_recibidos=0;
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -66,11 +65,16 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::onDatosRecibidos(){
     QByteArray bytes;
+    QByteArray static word;
     int cant =puerto->bytesAvailable();
     bytes.resize(cant);
     puerto->read(bytes.data(),bytes.size());
-    m_datos_recibidos+=bytes.size();
-    maqestado(bytes);
+    word.append(bytes);
+    if(word.startsWith("%")&&word.endsWith("$")){
+        maqestado(word);
+        word.clear();
+        word.resize(0);
+    }
 
 
 }
