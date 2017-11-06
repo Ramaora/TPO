@@ -93,7 +93,7 @@ void MainWindow::maqestado(QByteArray data){
        return;
     }
     if (data.contains("%PAUSE")){
-       ui->LABELCANCION->setText("PAUSA");
+       ui->LABELCANCION->setText("ANTERIOR");
        return;
     }
 
