@@ -17,6 +17,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     void EnumerarPuertos(void);
+    void separarNombres(const QByteArray);
 
 
 
@@ -24,7 +25,7 @@ public:
 private slots:
     void on_pushButton_clicked();
     void onDatosRecibidos();
-    void maqestado(QByteArray);
+    void maqestado(const QByteArray);
 
 private:  
     Ui::MainWindow *ui;
