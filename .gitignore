@@ -63,3 +63,8 @@ Temporary Items
 
 *.autosave
 *.user
+
+.metadata/.plugins/org.eclipse.cdt.core/preferences
+interfaz/interfaz.pro.user.06f7685
+interfaz/mainwindow.ui.autosave
+interfaz/interfaz.pro.user
