@@ -17,7 +17,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     void EnumerarPuertos(void);
-    void separarNombres(const QByteArray);
+//    void separarNombres(const QByteArray);
 
 
 
