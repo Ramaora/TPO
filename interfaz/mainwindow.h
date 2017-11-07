@@ -27,8 +27,15 @@ private slots:
     void onDatosRecibidos();
     void maqestado(const QByteArray);
 
-private:  
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_listacanciones_currentIndexChanged(int index);
+
+private:
     Ui::MainWindow *ui;
+    bool tengoCanciones=false;
 };
 
 #endif // MAINWINDOW_H

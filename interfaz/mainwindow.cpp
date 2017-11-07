@@ -53,15 +53,16 @@ void MainWindow::on_pushButton_clicked()
 {
     static bool i=true;
     if (i){
-        QPixmap pixmap("sprites/pause.png");
+        QPixmap pixmap("sprites/play.png");
         QIcon ButtonIcon(pixmap);
         ui->pushButton->setIcon(ButtonIcon);
     }else {
-        QPixmap pixmap("sprites/play.png");
+        QPixmap pixmap("sprites/pause.png");
         QIcon ButtonIcon(pixmap);
         ui->pushButton->setIcon(ButtonIcon);
     }
         i=(!i);
+        puerto->write("apj");
 }
 
 void MainWindow::onDatosRecibidos(){
@@ -89,8 +90,13 @@ void MainWindow::llenarComboboxTemas(QByteArray nombres){
 
 }
 void MainWindow::maqestado(const QByteArray data){
+    QPixmap pixmap1("sprites/pause.png");
+    QIcon ButtonIcon1(pixmap1);
+    QPixmap pixmap2("sprites/play.png");
+    QIcon ButtonIcon2(pixmap2);
     if (data.contains("%ARRANCAR$")){
        ui->LABELCANCION->setText("ARRANCAR");
+       ui->pushButton->setIcon(ButtonIcon1);
        return;
     }
     if (data.contains("%SIGUIENTE$")){
@@ -103,12 +109,37 @@ void MainWindow::maqestado(const QByteArray data){
     }
     if (data.contains("%PAUSAR$")){
        ui->LABELCANCION->setText("PAUSA");
+       ui->pushButton->setIcon(ButtonIcon2);
        return;
-    }else{
+    }if (data.contains("%ack$")){
+        if(!this->tengoCanciones){
+            puerto->write("aNj");
+        }else{
+            puerto->write("aYj");
+        }
+        return;
+     }else{
        llenarComboboxTemas(data);
+       tengoCanciones=true;
        return;
     }
+}
+void MainWindow::on_pushButton_2_clicked()
+{
+    puerto->write("aAj");
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    puerto->write("aSj");
 }
 
 
 
+
+void MainWindow::on_listacanciones_currentIndexChanged(int index)
+{
+    QByteArray aux;
+    aux.setNum(index);
+    puerto->write("a"+aux+"j");
+}
