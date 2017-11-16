@@ -28,11 +28,16 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
 
     QPixmap pix("sprites/Logo.jpg");
-    ui->logo->setPixmap(pix);
 
     QPixmap pixmap("sprites/play.png");
     QIcon ButtonIcon(pixmap);
     ui->pushButton->setIcon(ButtonIcon);
+    QPixmap pixmap3("sprites/anterior.png");
+    QIcon ButtonIcon3(pixmap3);
+    ui->pushButton_2->setIcon(ButtonIcon3);
+    QPixmap pixmap4("sprites/siguiente.png");
+    QIcon ButtonIcon4(pixmap4);
+    ui->pushButton_3->setIcon(ButtonIcon4);
 }
 
 MainWindow::~MainWindow()
@@ -94,9 +99,11 @@ void MainWindow::maqestado(const QByteArray data){
     QIcon ButtonIcon1(pixmap1);
     QPixmap pixmap2("sprites/play.png");
     QIcon ButtonIcon2(pixmap2);
+
     if (data.contains("%ARRANCAR$")){
        ui->LABELCANCION->setText("ARRANCAR");
        ui->pushButton->setIcon(ButtonIcon1);
+
        return;
     }
     if (data.contains("%SIGUIENTE$")){
