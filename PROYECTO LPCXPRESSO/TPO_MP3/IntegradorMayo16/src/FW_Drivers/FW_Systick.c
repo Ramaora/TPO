@@ -10,11 +10,14 @@ extern uint32_t f_tick_rtc;
 
 extern volatile uint8_t estado2;
 extern uint16_t timeoutSerie;
+extern uint8_t ArchivoActual;
 
 void SysTick_Handler(void)
 {
 	static uint16_t prueba=0;
 	static uint16_t ack=2000;
+	uint8_t aux[10]="";
+	uint8_t aux2[2];
 	if (delayteclado){
 		delayteclado--;
 	}else{
@@ -22,7 +25,14 @@ void SysTick_Handler(void)
 	}
 	if(!ack){
 		ack=400;
-		EnviarString0("ack$");
+		aux2[0]=ArchivoActual;
+		aux2[1]='\n';
+		strcat(aux,"ack");
+
+		strcat(aux,aux2);
+		strcat(aux,"$");
+
+		EnviarString0(aux);
 	}
 	if(!timeoutSerie){
 		SetPIN(RGBB, 0);
