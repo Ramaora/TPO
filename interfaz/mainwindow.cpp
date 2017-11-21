@@ -88,23 +88,20 @@ void MainWindow::maqestado(const QByteArray data){
     QPixmap pixmap2("sprites/play.png");
     QIcon ButtonIcon2(pixmap2);
     QByteArray aux;
+    int aux2;
 
     if (data.contains("%ARRANCAR$")){
-       ui->LABELCANCION->setText("ARRANCAR");
        ui->pushButton->setIcon(ButtonIcon1);
 
        return;
     }
     if (data.contains("%SIGUIENTE$")){
-       ui->LABELCANCION->setText("SIGUIENTE");
        return;
     }
     if (data.contains("%ANTERIOR$")){
-       ui->LABELCANCION->setText("ANTERIOR");
        return;
     }
     if (data.contains("%PAUSAR$")){
-       ui->LABELCANCION->setText("PAUSA");
        ui->pushButton->setIcon(ButtonIcon2);
        return;
     }if (data.contains("ack")){
@@ -114,14 +111,16 @@ void MainWindow::maqestado(const QByteArray data){
             puerto->write("aYj");
         }
         aux=data;
-        aux.remove(5,1);
-        aux.remove(0,4);
-        if(ui->listacanciones->currentIndex()!= data.toInt()){
+        aux.chop(2);
+        aux.remove(0,5);
+        ui->listacanciones->setDisabled(true);
+        aux2=aux.toInt();
+        if(ui->listacanciones->currentIndex()!= aux2){
 
-            ui->listacanciones->setCurrentIndex(*(data.data()));
+            ui->listacanciones->setCurrentIndex(aux2);
 
          }
-
+        ui->listacanciones->setDisabled(false);
         return;
      }else{
        llenarComboboxTemas(data);
@@ -161,7 +160,7 @@ void MainWindow::on_pushButton_refrescar_clicked()
 void MainWindow::on_pushButton_conectar_clicked()
 {
     puerto=new QSerialPort(ui->comboBox_puertos->currentText());
-    puerto->setBaudRate(QSerialPort::Baud115200);
+    puerto->setBaudRate(QSerialPort::Baud9600);
     puerto->setDataBits(QSerialPort::DataBits::Data8);
     puerto->setFlowControl(QSerialPort::FlowControl::NoFlowControl);
     puerto->setStopBits(QSerialPort::StopBits::OneStop);
