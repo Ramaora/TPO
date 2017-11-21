@@ -11,21 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    puerto=new QSerialPort("COM3");
-
-    puerto->setBaudRate(QSerialPort::Baud9600);
-    puerto->setDataBits(QSerialPort::DataBits::Data8);
-    puerto->setFlowControl(QSerialPort::FlowControl::NoFlowControl);
-    puerto->setStopBits(QSerialPort::StopBits::OneStop);
-    puerto->setParity(QSerialPort::Parity::NoParity);
-
-    if (puerto->open(QIODevice::ReadWrite)){
-        ui->LABELCANCION->setText("RICHARD");}else
-        {ui->LABELCANCION->setText ("ERROR");}
-
-
     EnumerarPuertos();
-    connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
 
     QPixmap pix("sprites/Logo.jpg");
 
@@ -67,7 +53,9 @@ void MainWindow::on_pushButton_clicked()
         ui->pushButton->setIcon(ButtonIcon);
     }
         i=(!i);
+        if(ui->LABELCANCION->text()=="CONECTADO"){
         puerto->write("apj");
+}
 }
 
 void MainWindow::onDatosRecibidos(){
@@ -99,6 +87,7 @@ void MainWindow::maqestado(const QByteArray data){
     QIcon ButtonIcon1(pixmap1);
     QPixmap pixmap2("sprites/play.png");
     QIcon ButtonIcon2(pixmap2);
+    QByteArray aux;
 
     if (data.contains("%ARRANCAR$")){
        ui->LABELCANCION->setText("ARRANCAR");
@@ -118,12 +107,21 @@ void MainWindow::maqestado(const QByteArray data){
        ui->LABELCANCION->setText("PAUSA");
        ui->pushButton->setIcon(ButtonIcon2);
        return;
-    }if (data.contains("%ack$")){
+    }if (data.contains("ack")){
         if(!this->tengoCanciones){
             puerto->write("aNj");
         }else{
             puerto->write("aYj");
         }
+        aux=data;
+        aux.remove(5,1);
+        aux.remove(0,4);
+        if(ui->listacanciones->currentIndex()!= data.toInt()){
+
+            ui->listacanciones->setCurrentIndex(*(data.data()));
+
+         }
+
         return;
      }else{
        llenarComboboxTemas(data);
@@ -133,12 +131,16 @@ void MainWindow::maqestado(const QByteArray data){
 }
 void MainWindow::on_pushButton_2_clicked()
 {
+    if(ui->LABELCANCION->text()=="CONECTADO"){
     puerto->write("aAj");
+    }
 }
 
 void MainWindow::on_pushButton_3_clicked()
 {
+    if(ui->LABELCANCION->text()=="CONECTADO"){
     puerto->write("aSj");
+    }
 }
 
 
@@ -149,4 +151,24 @@ void MainWindow::on_listacanciones_currentIndexChanged(int index)
     QByteArray aux;
     aux.setNum(index);
     puerto->write("a"+aux+"j");
+}
+
+void MainWindow::on_pushButton_refrescar_clicked()
+{
+    EnumerarPuertos();
+}
+
+void MainWindow::on_pushButton_conectar_clicked()
+{
+    puerto=new QSerialPort(ui->comboBox_puertos->currentText());
+    puerto->setBaudRate(QSerialPort::Baud115200);
+    puerto->setDataBits(QSerialPort::DataBits::Data8);
+    puerto->setFlowControl(QSerialPort::FlowControl::NoFlowControl);
+    puerto->setStopBits(QSerialPort::StopBits::OneStop);
+    puerto->setParity(QSerialPort::Parity::NoParity);
+
+    if (puerto->open(QIODevice::ReadWrite)){
+        ui->LABELCANCION->setText("CONECTADO");}else
+        {ui->LABELCANCION->setText ("ERROR");}
+    connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
 }

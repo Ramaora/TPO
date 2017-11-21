@@ -33,6 +33,10 @@ private slots:
 
     void on_listacanciones_currentIndexChanged(int index);
 
+    void on_pushButton_refrescar_clicked();
+
+    void on_pushButton_conectar_clicked();
+
 private:
     Ui::MainWindow *ui;
     bool tengoCanciones=false;

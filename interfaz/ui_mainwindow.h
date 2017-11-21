@@ -18,11 +18,9 @@
 #include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSplitter>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -40,16 +38,15 @@ public:
     QComboBox *listacanciones;
     QSplitter *splitter_5;
     QLabel *label;
+    QPushButton *pushButton_conectar;
+    QPushButton *pushButton_refrescar;
     QLCDNumber *lcdNumber;
     QSplitter *splitter_4;
     QSplitter *splitter_2;
     QPushButton *pushButton_2;
     QPushButton *pushButton;
     QPushButton *pushButton_3;
-    QMenuBar *menuBar;
-    QToolBar *mainToolBar;
     QStatusBar *statusBar;
-    QToolBar *toolBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -107,6 +104,16 @@ public:
 
         verticalLayout->addWidget(splitter_5);
 
+        pushButton_conectar = new QPushButton(centralWidget);
+        pushButton_conectar->setObjectName(QStringLiteral("pushButton_conectar"));
+
+        verticalLayout->addWidget(pushButton_conectar);
+
+        pushButton_refrescar = new QPushButton(centralWidget);
+        pushButton_refrescar->setObjectName(QStringLiteral("pushButton_refrescar"));
+
+        verticalLayout->addWidget(pushButton_refrescar);
+
         lcdNumber = new QLCDNumber(centralWidget);
         lcdNumber->setObjectName(QStringLiteral("lcdNumber"));
         lcdNumber->setMinimumSize(QSize(281, 51));
@@ -145,19 +152,9 @@ public:
         verticalLayout->addWidget(splitter_4);
 
         MainWindow->setCentralWidget(centralWidget);
-        menuBar = new QMenuBar(MainWindow);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 347, 21));
-        MainWindow->setMenuBar(menuBar);
-        mainToolBar = new QToolBar(MainWindow);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         MainWindow->setStatusBar(statusBar);
-        toolBar = new QToolBar(MainWindow);
-        toolBar->setObjectName(QStringLiteral("toolBar"));
-        MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
 
         retranslateUi(MainWindow);
 
@@ -166,13 +163,14 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        LABELCANCION->setText(QApplication::translate("MainWindow", "<html><head/><body><p><span style=\" color:#ffffff;\">TextLabel</span></p></body></html>", Q_NULLPTR));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "REPRODUCTOR WAV", Q_NULLPTR));
+        LABELCANCION->setText(QApplication::translate("MainWindow", "<html><head/><body><p>SIN CONEXION</p></body></html>", Q_NULLPTR));
         label->setText(QString());
+        pushButton_conectar->setText(QApplication::translate("MainWindow", "CONECTAR SERIE", Q_NULLPTR));
+        pushButton_refrescar->setText(QApplication::translate("MainWindow", "REFRESCAR", Q_NULLPTR));
         pushButton_2->setText(QString());
         pushButton->setText(QString());
         pushButton_3->setText(QString());
-        toolBar->setWindowTitle(QApplication::translate("MainWindow", "toolBar", Q_NULLPTR));
     } // retranslateUi
 
 };
