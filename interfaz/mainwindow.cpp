@@ -88,7 +88,7 @@ void MainWindow::maqestado(const QByteArray data){
     QIcon ButtonIcon1(pixmap1);
     QPixmap pixmap2("sprites/play.png");
     QIcon ButtonIcon2(pixmap2);
-    QByteArray aux;
+    QByteArray auxiliar;
     int aux2;
 
     if (data.contains("%ARRANCAR$")){
@@ -110,14 +110,18 @@ void MainWindow::maqestado(const QByteArray data){
         if(!this->tengoCanciones){
             puerto->write("aNj");
         }
-        aux=data;
-        aux.chop(1);
-        aux.remove(0,4);
-        char *p = aux.data();
+        auxiliar=data;
+        auxiliar.chop(1);
+        auxiliar.remove(0,4);
+        char *p = auxiliar.data();
         aux2=p[0];
         //ui->listacanciones->setDisabled(true);
-        if((ui->listacanciones->currentIndex()!= aux2)){
-
+        if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
+            QByteArray aux;
+                flagcambiar=false;
+                QTimer::singleShot(2000, this, SLOT(bajarflag()));
+                aux.setNum(aux2);
+                puerto->write("a"+aux+"j");
             ui->listacanciones->setCurrentIndex(aux2);
 
          }
@@ -150,13 +154,7 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_listacanciones_currentIndexChanged(int index)
 {
-    QByteArray aux;
-    if (flagcambiar){
-        flagcambiar=false;
-        QTimer::singleShot(200, this, SLOT(bajarflag()));
-        aux.setNum(index);
-        puerto->write("a"+aux+"j");
-    }
+
 }
 
 void MainWindow::on_pushButton_refrescar_clicked()
