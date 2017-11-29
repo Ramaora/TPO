@@ -36,6 +36,7 @@ private slots:
     void on_pushButton_refrescar_clicked();
 
     void on_pushButton_conectar_clicked();
+
     void bajarflag();
 
 private:

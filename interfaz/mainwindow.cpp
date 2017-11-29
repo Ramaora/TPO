@@ -4,8 +4,19 @@
 #include <QByteArray>
 #include <QtSerialPort>
 #include <QByteArrayList>
+#include <QTimer>
+
+
+
+
 QSerialPort* puerto;
 bool flagcambiar=true;
+
+void MainWindow::bajarflag(){
+    flagcambiar=true;
+
+}
+
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -106,7 +117,7 @@ void MainWindow::maqestado(const QByteArray data){
        ui->pushButton->setIcon(ButtonIcon2);
        return;
     }
-    if (data.contains("ack")){
+    if ((data.contains("ack")) && flagcambiar){
         if(!this->tengoCanciones){
             puerto->write("aNj");
         }
@@ -116,12 +127,9 @@ void MainWindow::maqestado(const QByteArray data){
         char *p = auxiliar.data();
         aux2=p[0];
         //ui->listacanciones->setDisabled(true);
+        int j = ui->listacanciones->currentIndex();
         if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
-            QByteArray aux;
-                flagcambiar=false;
-                QTimer::singleShot(2000, this, SLOT(bajarflag()));
-                aux.setNum(aux2);
-                puerto->write("a"+aux+"j");
+
             ui->listacanciones->setCurrentIndex(aux2);
 
          }
@@ -154,7 +162,11 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_listacanciones_currentIndexChanged(int index)
 {
-
+        QByteArray aux;
+        flagcambiar=false;
+        QTimer::singleShot(2000, this, SLOT(bajarflag()));
+        aux.setNum(index);
+        puerto->write("a"+aux+"j");
 }
 
 void MainWindow::on_pushButton_refrescar_clicked()
@@ -188,7 +200,4 @@ void MainWindow::on_pushButton_conectar_clicked()
     }
 }
 
-void MainWindow::bajarflag(){
-    flagcambiar=true;
 
-}

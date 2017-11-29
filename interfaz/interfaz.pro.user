@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2017-11-29T17:52:12. -->
+<!-- Written by QtCreator 4.4.1, 2017-11-29T19:02:08. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{06f76857-6378-4a96-bd1b-abc277513b7e}</value>
+  <value type="QByteArray">{6211f7dd-c2f1-485a-949f-e0049320ff3b}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -285,8 +285,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">interfaz</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Rama/Documents/GitHub/TPO/interfaz/interfaz.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">interfaz2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Liliana/Documents/GitHub/TPO/interfaz/interfaz.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">interfaz.pro</value>
