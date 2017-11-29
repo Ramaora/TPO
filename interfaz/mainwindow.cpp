@@ -112,10 +112,9 @@ void MainWindow::maqestado(const QByteArray data){
         aux=data;
         aux.chop(2);
         aux.remove(0,4);
-        QDataStream aux3(aux);
-
+        QString indice (aux.data());
+        aux2=indice.toInt();
         ui->listacanciones->setDisabled(true);
-        aux3>>aux2;
         if(ui->listacanciones->currentIndex()!= aux2){
 
             ui->listacanciones->setCurrentIndex(aux2);
