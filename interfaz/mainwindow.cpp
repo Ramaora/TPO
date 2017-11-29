@@ -116,7 +116,7 @@ void MainWindow::maqestado(const QByteArray data){
         char *p = aux.data();
         aux2=p[0];
         //ui->listacanciones->setDisabled(true);
-        if(ui->listacanciones->currentIndex()!= aux2){
+        if((ui->listacanciones->currentIndex()!= aux2)){
 
             ui->listacanciones->setCurrentIndex(aux2);
 
@@ -134,11 +134,7 @@ void MainWindow::on_pushButton_2_clicked()
     if(ui->LABELCANCION->text()=="CONECTADO"){
         puerto->write("aAj");
     }
-    if(ui->listacanciones->currentIndex()>0){
-        ui->listacanciones->setCurrentIndex(ui->listacanciones->currentIndex()-1);
-    }else if(ui->listacanciones->count()>0){
-        ui->listacanciones->setCurrentIndex(ui->listacanciones->count()-1);
-    }
+
 }
 
 void MainWindow::on_pushButton_3_clicked()
@@ -146,10 +142,7 @@ void MainWindow::on_pushButton_3_clicked()
     if(ui->LABELCANCION->text()=="CONECTADO"){
         puerto->write("aSj");
     }
-    if(!ui->listacanciones->count()>0) return;
-    if(ui->listacanciones->currentIndex()<ui->listacanciones->count()-1){
-        ui->listacanciones->setCurrentIndex(ui->listacanciones->currentIndex()+1);
-    }else ui->listacanciones->setCurrentIndex(0);
+
 }
 
 
