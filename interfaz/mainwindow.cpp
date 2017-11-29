@@ -5,6 +5,7 @@
 #include <QtSerialPort>
 #include <QByteArrayList>
 QSerialPort* puerto;
+bool flagcambiar=true;
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -157,8 +158,12 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::on_listacanciones_currentIndexChanged(int index)
 {
     QByteArray aux;
-    aux.setNum(index);
-    puerto->write("a"+aux+"j");
+    if (flagcambiar){
+        flagcambiar=false;
+        QTimer::singleShot(200, this, SLOT(bajarflag()));
+        aux.setNum(index);
+        puerto->write("a"+aux+"j");
+    }
 }
 
 void MainWindow::on_pushButton_refrescar_clicked()
@@ -190,4 +195,9 @@ void MainWindow::on_pushButton_conectar_clicked()
         ui->LABELCANCION->setText("DESCONECTADO");
         puertoabierto=false;
     }
+}
+
+void MainWindow::bajarflag(){
+    flagcambiar=true;
+
 }
