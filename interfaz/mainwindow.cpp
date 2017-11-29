@@ -104,11 +104,10 @@ void MainWindow::maqestado(const QByteArray data){
     if (data.contains("%PAUSAR$")){
        ui->pushButton->setIcon(ButtonIcon2);
        return;
-    }if (data.contains("ack")){
+    }
+    if (data.contains("ack")){
         if(!this->tengoCanciones){
             puerto->write("aNj");
-        }else{
-            puerto->write("aYj");
         }
         aux=data;
         aux.chop(2);
@@ -159,6 +158,10 @@ void MainWindow::on_pushButton_refrescar_clicked()
 
 void MainWindow::on_pushButton_conectar_clicked()
 {
+    static bool puertoabierto=false;
+    if (!puertoabierto){
+        puertoabierto=!puertoabierto;
+        ui->pushButton_conectar->setText("DESCONECTAR");
     puerto=new QSerialPort(ui->comboBox_puertos->currentText());
     puerto->setBaudRate(QSerialPort::Baud9600);
     puerto->setDataBits(QSerialPort::DataBits::Data8);
@@ -166,8 +169,15 @@ void MainWindow::on_pushButton_conectar_clicked()
     puerto->setStopBits(QSerialPort::StopBits::OneStop);
     puerto->setParity(QSerialPort::Parity::NoParity);
 
+
     if (puerto->open(QIODevice::ReadWrite)){
         ui->LABELCANCION->setText("CONECTADO");}else
         {ui->LABELCANCION->setText ("ERROR");}
     connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
+    }else{
+        puerto->close();
+        ui->pushButton_conectar->setText("CONECTAR");
+        ui->LABELCANCION->setText("DESCONECTADO");
+        puertoabierto=false;
+    }
 }
