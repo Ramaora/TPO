@@ -17,4 +17,5 @@ SUBDIRS := \
 src/FW_Drivers \
 src/FW_Inicializaciones \
 src \
+src/Primitivas \
 

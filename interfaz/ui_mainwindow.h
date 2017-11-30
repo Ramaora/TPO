@@ -14,12 +14,13 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSplitter>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -30,19 +31,27 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QVBoxLayout *verticalLayout;
-    QSplitter *splitter_3;
+    QVBoxLayout *verticalLayout_4;
+    QVBoxLayout *verticalLayout_2;
+    QHBoxLayout *horizontalLayout_3;
     QLabel *LABELCANCION;
-    QSplitter *splitter;
     QComboBox *comboBox_puertos;
     QComboBox *listacanciones;
-    QSplitter *splitter_5;
+    QHBoxLayout *horizontalLayout_4;
+    QSpacerItem *horizontalSpacer_2;
+    QVBoxLayout *verticalLayout_3;
+    QSpacerItem *verticalSpacer_2;
     QLabel *label;
+    QSpacerItem *verticalSpacer;
+    QSpacerItem *horizontalSpacer_3;
+    QVBoxLayout *verticalLayout;
     QPushButton *pushButton_conectar;
     QPushButton *pushButton_refrescar;
-    QLCDNumber *lcdNumber;
-    QSplitter *splitter_4;
-    QSplitter *splitter_2;
+    QHBoxLayout *horizontalLayout;
+    QSpacerItem *horizontalSpacer;
+    QLCDNumber *lcdNumberM;
+    QLCDNumber *lcdNumberS;
+    QHBoxLayout *horizontalLayout_2;
     QPushButton *pushButton_2;
     QPushButton *pushButton;
     QPushButton *pushButton_3;
@@ -52,20 +61,23 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(347, 361);
-        MainWindow->setMinimumSize(QSize(300, 100));
+        MainWindow->resize(300, 400);
+        MainWindow->setMinimumSize(QSize(300, 400));
         MainWindow->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(79, 79, 79);"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        verticalLayout = new QVBoxLayout(centralWidget);
-        verticalLayout->setSpacing(6);
-        verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        splitter_3 = new QSplitter(centralWidget);
-        splitter_3->setObjectName(QStringLiteral("splitter_3"));
-        splitter_3->setOrientation(Qt::Horizontal);
-        LABELCANCION = new QLabel(splitter_3);
+        verticalLayout_4 = new QVBoxLayout(centralWidget);
+        verticalLayout_4->setSpacing(6);
+        verticalLayout_4->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        verticalLayout_2 = new QVBoxLayout();
+        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setSpacing(6);
+        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        LABELCANCION = new QLabel(centralWidget);
         LABELCANCION->setObjectName(QStringLiteral("LABELCANCION"));
         QFont font;
         font.setFamily(QStringLiteral("Trebuchet MS"));
@@ -74,21 +86,21 @@ public:
         font.setWeight(75);
         LABELCANCION->setFont(font);
         LABELCANCION->setCursor(QCursor(Qt::PointingHandCursor));
-        splitter_3->addWidget(LABELCANCION);
-        splitter = new QSplitter(splitter_3);
-        splitter->setObjectName(QStringLiteral("splitter"));
-        splitter->setOrientation(Qt::Vertical);
-        comboBox_puertos = new QComboBox(splitter);
+
+        horizontalLayout_3->addWidget(LABELCANCION);
+
+        comboBox_puertos = new QComboBox(centralWidget);
         comboBox_puertos->setObjectName(QStringLiteral("comboBox_puertos"));
         comboBox_puertos->setMaximumSize(QSize(69, 20));
-        splitter->addWidget(comboBox_puertos);
-        splitter_3->addWidget(splitter);
 
-        verticalLayout->addWidget(splitter_3);
+        horizontalLayout_3->addWidget(comboBox_puertos);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_3);
 
         listacanciones = new QComboBox(centralWidget);
         listacanciones->setObjectName(QStringLiteral("listacanciones"));
-        listacanciones->setMinimumSize(QSize(301, 21));
+        listacanciones->setMinimumSize(QSize(280, 21));
         QPalette palette;
         QBrush brush(QColor(79, 79, 79, 255));
         brush.setStyle(Qt::SolidPattern);
@@ -115,20 +127,55 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::HighlightedText, brush2);
         listacanciones->setPalette(palette);
 
-        verticalLayout->addWidget(listacanciones);
+        verticalLayout_2->addWidget(listacanciones);
 
-        splitter_5 = new QSplitter(centralWidget);
-        splitter_5->setObjectName(QStringLiteral("splitter_5"));
-        splitter_5->setOrientation(Qt::Horizontal);
-        label = new QLabel(splitter_5);
+
+        verticalLayout_4->addLayout(verticalLayout_2);
+
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setSpacing(6);
+        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_2);
+
+        verticalLayout_3 = new QVBoxLayout();
+        verticalLayout_3->setSpacing(6);
+        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_3->addItem(verticalSpacer_2);
+
+        label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
+        QSizePolicy sizePolicy(QSizePolicy::Maximum, QSizePolicy::Maximum);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
+        label->setSizePolicy(sizePolicy);
         label->setMaximumSize(QSize(241, 111));
         label->setPixmap(QPixmap(QString::fromUtf8("sprites/Logo.jpg")));
         label->setScaledContents(true);
-        splitter_5->addWidget(label);
 
-        verticalLayout->addWidget(splitter_5);
+        verticalLayout_3->addWidget(label);
 
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_3->addItem(verticalSpacer);
+
+
+        horizontalLayout_4->addLayout(verticalLayout_3);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_3);
+
+
+        verticalLayout_4->addLayout(horizontalLayout_4);
+
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setSpacing(6);
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         pushButton_conectar = new QPushButton(centralWidget);
         pushButton_conectar->setObjectName(QStringLiteral("pushButton_conectar"));
 
@@ -139,42 +186,63 @@ public:
 
         verticalLayout->addWidget(pushButton_refrescar);
 
-        lcdNumber = new QLCDNumber(centralWidget);
-        lcdNumber->setObjectName(QStringLiteral("lcdNumber"));
-        lcdNumber->setMinimumSize(QSize(281, 51));
 
-        verticalLayout->addWidget(lcdNumber);
+        verticalLayout_4->addLayout(verticalLayout);
 
-        splitter_4 = new QSplitter(centralWidget);
-        splitter_4->setObjectName(QStringLiteral("splitter_4"));
-        splitter_4->setOrientation(Qt::Horizontal);
-        splitter_2 = new QSplitter(splitter_4);
-        splitter_2->setObjectName(QStringLiteral("splitter_2"));
-        splitter_2->setOrientation(Qt::Horizontal);
-        pushButton_2 = new QPushButton(splitter_2);
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setSpacing(6);
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
+        lcdNumberM = new QLCDNumber(centralWidget);
+        lcdNumberM->setObjectName(QStringLiteral("lcdNumberM"));
+        lcdNumberM->setMinimumSize(QSize(40, 51));
+
+        horizontalLayout->addWidget(lcdNumberM);
+
+        lcdNumberS = new QLCDNumber(centralWidget);
+        lcdNumberS->setObjectName(QStringLiteral("lcdNumberS"));
+        lcdNumberS->setMinimumSize(QSize(40, 51));
+
+        horizontalLayout->addWidget(lcdNumberS);
+
+
+        verticalLayout_4->addLayout(horizontalLayout);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setSpacing(6);
+        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setMinimumSize(QSize(61, 51));
         pushButton_2->setMaximumSize(QSize(97, 71));
         pushButton_2->setStyleSheet(QStringLiteral("background-color: rgb(79, 79, 79);"));
         pushButton_2->setIconSize(QSize(40, 40));
-        splitter_2->addWidget(pushButton_2);
-        pushButton = new QPushButton(splitter_2);
+
+        horizontalLayout_2->addWidget(pushButton_2);
+
+        pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setMinimumSize(QSize(61, 51));
         pushButton->setMaximumSize(QSize(97, 71));
         pushButton->setStyleSheet(QStringLiteral("background-color: rgb(79, 79, 79);"));
         pushButton->setIconSize(QSize(50, 50));
-        splitter_2->addWidget(pushButton);
-        pushButton_3 = new QPushButton(splitter_2);
+
+        horizontalLayout_2->addWidget(pushButton);
+
+        pushButton_3 = new QPushButton(centralWidget);
         pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
         pushButton_3->setMinimumSize(QSize(61, 51));
         pushButton_3->setMaximumSize(QSize(97, 71));
         pushButton_3->setStyleSheet(QStringLiteral("background-color: rgb(79, 79, 79);"));
         pushButton_3->setIconSize(QSize(40, 40));
-        splitter_2->addWidget(pushButton_3);
-        splitter_4->addWidget(splitter_2);
 
-        verticalLayout->addWidget(splitter_4);
+        horizontalLayout_2->addWidget(pushButton_3);
+
+
+        verticalLayout_4->addLayout(horizontalLayout_2);
 
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);

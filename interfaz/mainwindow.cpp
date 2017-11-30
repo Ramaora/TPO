@@ -24,7 +24,6 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     EnumerarPuertos();
-
     QPixmap pix("sprites/Logo.jpg");
 
     QPixmap pixmap("sprites/play.png");
@@ -55,14 +54,14 @@ void MainWindow::EnumerarPuertos()
 void MainWindow::on_pushButton_clicked()
 {
     static bool i=true;
+    static QPixmap pixmap1("sprites/play.png");
+    static QIcon ButtonIcon1(pixmap1);
+    static QPixmap pixmap2("sprites/pause.png");
+    static QIcon ButtonIcon2(pixmap2);
     if (i){
-        QPixmap pixmap("sprites/play.png");
-        QIcon ButtonIcon(pixmap);
-        ui->pushButton->setIcon(ButtonIcon);
+        ui->pushButton->setIcon(ButtonIcon1);
     }else {
-        QPixmap pixmap("sprites/pause.png");
-        QIcon ButtonIcon(pixmap);
-        ui->pushButton->setIcon(ButtonIcon);
+        ui->pushButton->setIcon(ButtonIcon2);
     }
         i=(!i);
         if(ui->LABELCANCION->text()=="CONECTADO"){
@@ -126,7 +125,9 @@ void MainWindow::maqestado(const QByteArray data){
             auxiliar.chop(1);
             auxiliar.remove(0,4);
             char *p = auxiliar.data();
-            aux2=p[0];
+            aux2=p[0]-1;
+            ui->lcdNumberM->display(p[1]-1);
+            ui->lcdNumberS->display(p[2]);
             //ui->listacanciones->setDisabled(true);
             int j = ui->listacanciones->currentIndex();
             if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){

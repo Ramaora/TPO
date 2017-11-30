@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/Primitivas/subdir.mk
 -include src/FW_Inicializaciones/subdir.mk
 -include src/FW_Drivers/subdir.mk
 -include src/subdir.mk

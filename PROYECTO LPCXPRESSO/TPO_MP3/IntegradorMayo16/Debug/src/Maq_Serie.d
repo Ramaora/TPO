@@ -1,4 +1,4 @@
-src/IntegradorMayo16.o src/IntegradorMayo16.d: ../src/IntegradorMayo16.c \
+src/Maq_Serie.o src/Maq_Serie.d: ../src/Maq_Serie.c \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/Aplicacion.h \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/FW_EXPANSION1.h \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/Aplicacion.h \
@@ -16,8 +16,7 @@ src/IntegradorMayo16.o src/IntegradorMayo16.d: ../src/IntegradorMayo16.c \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/ffconf.h \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/sound.h \
  C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/FW_Display-Expansion2.h \
- C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/lcd.h \
- C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/globales.h
+ C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/lcd.h
 
 C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/Aplicacion.h:
 
@@ -54,5 +53,3 @@ C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16
 C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/FW_Display-Expansion2.h:
 
 C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/lcd.h:
-
-C:\Users\Rama\Documents\GitHub\TPO\PROYECTO\ LPCXPRESSO\TPO_MP3\IntegradorMayo16\inc/globales.h:
