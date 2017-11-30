@@ -120,8 +120,6 @@ void MainWindow::maqestado(const QByteArray data){
     if ((data.contains("ack")) && flagcambiar){
         if(!this->tengoCanciones){
             puerto->write("aNj");
-        }else {
-             puerto->write("aYj");
         }
         auxiliar=data;
         auxiliar.chop(1);
@@ -131,7 +129,7 @@ void MainWindow::maqestado(const QByteArray data){
         //ui->listacanciones->setDisabled(true);
         int j = ui->listacanciones->currentIndex();
         if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
-            flagcambiar=false;
+
             ui->listacanciones->setCurrentIndex(aux2);
 
          }
@@ -165,12 +163,10 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::on_listacanciones_currentIndexChanged(int index)
 {
         QByteArray aux;
-        if (flagcambiar){
         flagcambiar=false;
         QTimer::singleShot(2000, this, SLOT(bajarflag()));
         aux.setNum(index);
         puerto->write("a"+aux+"j");
-}
 }
 
 void MainWindow::on_pushButton_refrescar_clicked()
