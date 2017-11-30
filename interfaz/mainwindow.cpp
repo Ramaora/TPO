@@ -117,24 +117,27 @@ void MainWindow::maqestado(const QByteArray data){
        ui->pushButton->setIcon(ButtonIcon2);
        return;
     }
-    if ((data.contains("ack")) && flagcambiar){
-        if(!this->tengoCanciones){
-            puerto->write("aNj");
-        }
-        auxiliar=data;
-        auxiliar.chop(1);
-        auxiliar.remove(0,4);
-        char *p = auxiliar.data();
-        aux2=p[0];
-        //ui->listacanciones->setDisabled(true);
-        int j = ui->listacanciones->currentIndex();
-        if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
+    if ((data.contains("ack"))){
+        if (flagcambiar){
+            if(!this->tengoCanciones){
+                puerto->write("aNj");
+            }else{puerto->write("aYj");}
+            auxiliar=data;
+            auxiliar.chop(1);
+            auxiliar.remove(0,4);
+            char *p = auxiliar.data();
+            aux2=p[0];
+            //ui->listacanciones->setDisabled(true);
+            int j = ui->listacanciones->currentIndex();
+            if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
+                flagcambiar=false;
+                QTimer::singleShot(200, this, SLOT(bajarflag()));
+                ui->listacanciones->setCurrentIndex(aux2);
 
-            ui->listacanciones->setCurrentIndex(aux2);
-
-         }
-       // ui->listacanciones->setDisabled(false);
-        return;
+             }
+           // ui->listacanciones->setDisabled(false);
+            return;
+           }
      }else{
        llenarComboboxTemas(data);
        tengoCanciones=true;
@@ -163,10 +166,13 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::on_listacanciones_currentIndexChanged(int index)
 {
         QByteArray aux;
-        flagcambiar=false;
-        QTimer::singleShot(2000, this, SLOT(bajarflag()));
-        aux.setNum(index);
-        puerto->write("a"+aux+"j");
+        if (flagcambiar){
+
+            flagcambiar=false;
+            QTimer::singleShot(200, this, SLOT(bajarflag()));
+            aux.setNum(index);
+            puerto->write("a"+aux+"j");
+        }
 }
 
 void MainWindow::on_pushButton_refrescar_clicked()
