@@ -33,20 +33,20 @@ volatile FATFS FatFs;				/* File system object for each logical drive */
 volatile FIL File;				/* File objects */
 volatile DIR Dir;
 /* Directory object */
-volatile uint8_t FileList[20][13];
+volatile uint8_t FileList[20][13];	//nombres de las canciones
 volatile uint8_t MAX_FILE=0;
-volatile uint8_t buffKey=NO_KEY;
+volatile uint8_t buffKey=NO_KEY;	//buffer de valor de teclado
 
 
 
-volatile uint8_t estado2=REPOSO;
-volatile uint8_t bufferswav[2][1024];
-volatile uint32_t cant=0;
+volatile uint8_t estado2=REPOSO;		//estado de la maquina de reproduccion
+volatile uint8_t bufferswav[2][1024];	//buffer de datos de la reproduccion
+volatile uint32_t cant=0;				//guarda la cantidad de bytes que se mandaron al DAC
 volatile UINT Timer;
-volatile uint8_t ArchivoActual=0;
+volatile uint8_t ArchivoActual=0;		//index de cancion actual
 volatile uint8_t delayteclado=0;
 volatile uint8_t tecla=NO_KEY;
-volatile uint8_t flagtermino=0;
+volatile uint8_t flagtermino=0;			//indica si se acabo el buffer de datos de reproduccion
 //lcd
 volatile unsigned int inxInLCD;
 volatile unsigned int inxOutLCD;

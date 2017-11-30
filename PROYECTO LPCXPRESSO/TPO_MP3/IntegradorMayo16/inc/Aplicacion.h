@@ -78,5 +78,10 @@
 	uint8_t PopTx0(uint8_t*);
 	void FileList_Fill (void);
 	void maqreproduccion(void);
+	void cargarBuffer(void);
+	void reiniciarRTC(void);
+	void prenderRTC(void);
+	void apagarRTC(void);
+	void mandarlista(void);
 
 #endif /* APLICACION_H_ */

@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- Name        : IntegradorMayo16.c
+ Name        : main.c
  Author      : $(author)
  Version     :
  Copyright   : $(copyright)
@@ -15,44 +15,11 @@
 #include "Aplicacion.h"
 #include "globales.h"
 
-
-
-void mandarlista(void){
-	int i=0;
-	uint8_t bufferamandar [400];
-	for (i=0;i<400;i++)bufferamandar[i]='\0';
-
-	for (i=0;i<MAX_FILE-1;i++){
-		strcat(bufferamandar,FileList[i]);
-		if ((i+1)!=(MAX_FILE-1)){
-			strcat(bufferamandar,",");
-		}
-
-	}
-	strcat(bufferamandar,"$");
-	EnviarString0(bufferamandar);
-
-}
-
-
-
-
-
-
 int main(void) {
 	ApagarTimer0();
 	InicializarKit();
 	ApagarTimer0();
 	FRESULT res;
-	uint8_t header [44];
-
-
-	// Prueba del display
-
-	unsigned char i;
-	for(i = 0; i < 80; i++){
-		WDato(0x41);
-	}
 
 	WComando8(LCD_CLEAR);
 	WComando8(LCD_HOME1);
@@ -63,12 +30,10 @@ int main(void) {
 	while ((res = f_mount(&FatFs, "", 1))!=FR_OK);
 	f_opendir(&Dir,"");
 	for (w=0;w<20;w++) {
-	FileList[w][0] = (uint8_t)0;
+		FileList[w][0] = (uint8_t)0;
 	}
-	RTC_CCR &= ~(1);
-	RTC_MIN=0;
-	RTC_SEC=0;
 
+	reiniciarRTC();
 
 	FileList_Fill();
 
@@ -79,10 +44,7 @@ int main(void) {
 		//printf ("error al abrir archivo;");
 	}
 
-	f_read (&File,header,43,(UINT*)&cant);
-	f_read (&File,bufferswav[0],1024,(UINT*)&cant);
-	f_read (&File,bufferswav[1],1024,(UINT*)&cant);
-	SetPIN (LEDXpresso, ON);
+	cargarBuffer();
 
 	while (1){
 

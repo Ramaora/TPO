@@ -14,12 +14,26 @@
 extern volatile uint8_t buffKey;
 extern volatile uint8_t delayteclado;
 
-
+/**
+ * \fn uint8_t getkey (void)
+ * \brief devuelve el valor de la tecla del buffer (si hay una)
+ * \details
+ * \param [in] void
+ * \return uint8_t
+ * */
 uint8_t getkey(void){
 	uint8_t aux=buffKey;
 	buffKey=NO_KEY;
 	return aux;
 }
+
+/**
+ * \fn void DriverTeclado (void)
+ * \brief
+ * \details
+ * \param [in] void
+ * \return void
+ * */
 void DriverTeclado(void)
 {
 	uint8_t CodigoActual ;
@@ -27,7 +41,13 @@ void DriverTeclado(void)
 	TecladoSW( CodigoActual );
 }
 
-
+/**
+ * \fn void TecladoSW (void)
+ * \brief maquina de estado debounce de teclado
+ * \details
+ * \param [in] void
+ * \return void
+ * */
 void TecladoSW (uint8_t codAct){
    static uint8_t codAnt = NO_KEY;
    static uint8_t estado = REPOSO;
@@ -77,7 +97,13 @@ void TecladoSW (uint8_t codAct){
    }
 }
 
-
+/**
+ * \fn uint8_t TecladoHW (void)
+ * \brief lee los pines del teclado y devuelve su "codigo"
+ * \details
+ * \param [in] void
+ * \return uint8_t
+ * */
 uint8_t TecladoHW (void)
 {
 	uint8_t Codigo = NO_KEY;

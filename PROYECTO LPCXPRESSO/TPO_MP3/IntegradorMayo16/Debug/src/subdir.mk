@@ -4,40 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/IntegradorMayo16.c \
 ../src/Maq_Serie.c \
-../src/ff.c \
-../src/ffsystem.c \
-../src/ffunicode.c \
-../src/mmc_ssp.c \
-../src/rtc176x.c \
-../src/sound.c \
-../src/startup176x.c \
-../src/xprintf.c 
+../src/main.c 
 
 OBJS += \
-./src/IntegradorMayo16.o \
 ./src/Maq_Serie.o \
-./src/ff.o \
-./src/ffsystem.o \
-./src/ffunicode.o \
-./src/mmc_ssp.o \
-./src/rtc176x.o \
-./src/sound.o \
-./src/startup176x.o \
-./src/xprintf.o 
+./src/main.o 
 
 C_DEPS += \
-./src/IntegradorMayo16.d \
 ./src/Maq_Serie.d \
-./src/ff.d \
-./src/ffsystem.d \
-./src/ffunicode.d \
-./src/mmc_ssp.d \
-./src/rtc176x.d \
-./src/sound.d \
-./src/startup176x.d \
-./src/xprintf.d 
+./src/main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

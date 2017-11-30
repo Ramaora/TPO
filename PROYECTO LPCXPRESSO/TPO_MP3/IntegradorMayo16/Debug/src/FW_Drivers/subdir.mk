@@ -11,7 +11,16 @@ C_SRCS += \
 ../src/FW_Drivers/FW_Timers.c \
 ../src/FW_Drivers/FW_UART0.c \
 ../src/FW_Drivers/KitInfo2FW_Teclado.c \
-../src/FW_Drivers/cr_startup_lpc176x.c 
+../src/FW_Drivers/cr_startup_lpc176x.c \
+../src/FW_Drivers/ff.c \
+../src/FW_Drivers/ffsystem.c \
+../src/FW_Drivers/ffunicode.c \
+../src/FW_Drivers/mmc_ssp.c \
+../src/FW_Drivers/reproduccion.c \
+../src/FW_Drivers/rtc176x.c \
+../src/FW_Drivers/sound.c \
+../src/FW_Drivers/startup176x.c \
+../src/FW_Drivers/xprintf.c 
 
 OBJS += \
 ./src/FW_Drivers/FW_7Seg.o \
@@ -21,7 +30,16 @@ OBJS += \
 ./src/FW_Drivers/FW_Timers.o \
 ./src/FW_Drivers/FW_UART0.o \
 ./src/FW_Drivers/KitInfo2FW_Teclado.o \
-./src/FW_Drivers/cr_startup_lpc176x.o 
+./src/FW_Drivers/cr_startup_lpc176x.o \
+./src/FW_Drivers/ff.o \
+./src/FW_Drivers/ffsystem.o \
+./src/FW_Drivers/ffunicode.o \
+./src/FW_Drivers/mmc_ssp.o \
+./src/FW_Drivers/reproduccion.o \
+./src/FW_Drivers/rtc176x.o \
+./src/FW_Drivers/sound.o \
+./src/FW_Drivers/startup176x.o \
+./src/FW_Drivers/xprintf.o 
 
 C_DEPS += \
 ./src/FW_Drivers/FW_7Seg.d \
@@ -31,7 +49,16 @@ C_DEPS += \
 ./src/FW_Drivers/FW_Timers.d \
 ./src/FW_Drivers/FW_UART0.d \
 ./src/FW_Drivers/KitInfo2FW_Teclado.d \
-./src/FW_Drivers/cr_startup_lpc176x.d 
+./src/FW_Drivers/cr_startup_lpc176x.d \
+./src/FW_Drivers/ff.d \
+./src/FW_Drivers/ffsystem.d \
+./src/FW_Drivers/ffunicode.d \
+./src/FW_Drivers/mmc_ssp.d \
+./src/FW_Drivers/reproduccion.d \
+./src/FW_Drivers/rtc176x.d \
+./src/FW_Drivers/sound.d \
+./src/FW_Drivers/startup176x.d \
+./src/FW_Drivers/xprintf.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

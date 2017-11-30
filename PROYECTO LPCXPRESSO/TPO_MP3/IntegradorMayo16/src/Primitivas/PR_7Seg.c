@@ -50,7 +50,6 @@ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0
 		{
 			case 0:
 				TICKINT = OFF; 	//deshabilito el systick
-				//msgDisplay[ 2 ] = auxDisplay[ 2 ];
 				msgDisplay[ 1 ] = auxDisplay[ 1 ];
 				msgDisplay[ 0 ] = auxDisplay[ 0 ];
 				TICKINT = ON;	//habilito el systick
@@ -58,8 +57,6 @@ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0
 
 			case 1:
 				TICKINT = OFF;
-				//msgDisplay[ 5 ] = auxDisplay[ 2 ];
-				//msgDisplay[ 4 ] = auxDisplay[ 1 ];
 				msgDisplay[ 3 ] = auxDisplay[ 1 ];
 				msgDisplay[ 2 ] = auxDisplay[ 0 ];
 				msgDisplay[ 2 ] += 0x80;
