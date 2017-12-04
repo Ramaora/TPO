@@ -1,0 +1,1987 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o (__main)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+                              ./Reproductor/src/FW_Drivers/FW_Systick.o (strcat)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+                              ./Reproductor/src/FW_Drivers/reproduccion.o (strcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .text          0x00000000        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .data          0x00000000        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .bss           0x00000000        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .text          0x00000000        0x0 ./Reproductor/src/Primitivas/PR_UART0.o
+ .data          0x00000000        0x0 ./Reproductor/src/Primitivas/PR_UART0.o
+ .bss           0x00000000        0x0 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/Primitivas/PR_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .text.Inicializar_Teclas
+                0x00000000       0x8c ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .text.Inicializar_RGB
+                0x00000000       0x44 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000      0x16c ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xd6 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .text.InicExtInt
+                0x00000000       0x70 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .text.InicTimer1
+                0x00000000      0x100 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x16c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xd6 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000      0x16c ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xd6 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .crp           0x00000000        0x4 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_info    0x00000000       0x3f ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_abbrev  0x00000000       0x36 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_aranges
+                0x00000000       0x18 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_macro   0x00000000       0x1a ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_macro   0x00000000       0x34 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_line    0x00000000       0x98 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .debug_str     0x00000000     0x25a8 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .comment       0x00000000       0x6f ./Reproductor/src/FW_Inicializaciones/crp.o
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/FW_Inicializaciones/crp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .text.TooglePIN
+                0x00000000       0x90 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .bss.entero_ascii
+                0x00000000        0x6 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .text.Conversor
+                0x00000000       0xd8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .text.DisplayInt_lcd
+                0x00000000       0x88 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .text.Display_lcd
+                0x00000000       0x5c ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ff.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ff.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ff.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ff.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ff.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ff.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/ff.o
+ .rodata.DbcTbl
+                0x00000000        0xa ./Reproductor/src/FW_Drivers/ff.o
+ .text.sync_fs  0x00000000       0xdc ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_remove
+                0x00000000       0x94 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_write  0x00000000      0x2d4 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_sync   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_close  0x00000000       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_chdir  0x00000000       0x94 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_getcwd
+                0x00000000      0x250 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_lseek  0x00000000      0x25c ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_closedir
+                0x00000000       0x30 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_stat   0x00000000       0x74 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_getfree
+                0x00000000      0x16c ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_truncate
+                0x00000000      0x128 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_unlink
+                0x00000000      0x168 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_mkdir  0x00000000      0x1d0 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_rename
+                0x00000000      0x1f4 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_chmod  0x00000000       0xb8 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_utime  0x00000000       0xa0 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_getlabel
+                0x00000000      0x140 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_setlabel
+                0x00000000      0x1e8 ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_mkfs   0x00000000      0x860 ./Reproductor/src/FW_Drivers/ff.o
+ .rodata.badchr.4568
+                0x00000000       0x10 ./Reproductor/src/FW_Drivers/ff.o
+ .rodata.cst32.4586
+                0x00000000        0xe ./Reproductor/src/FW_Drivers/ff.o
+ .rodata.cst.4585
+                0x00000000        0xe ./Reproductor/src/FW_Drivers/ff.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/ff.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_info    0x00000000       0x68 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_abbrev  0x00000000       0x29 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_aranges
+                0x00000000       0x18 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_macro   0x00000000       0x33 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_macro   0x00000000       0xef ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_line    0x00000000       0xdd ./Reproductor/src/FW_Drivers/ffsystem.o
+ .debug_str     0x00000000     0x2a40 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .comment       0x00000000       0x6f ./Reproductor/src/FW_Drivers/ffsystem.o
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/FW_Drivers/ffsystem.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_macro   0x00000000       0xef ./Reproductor/src/FW_Drivers/ffunicode.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.disk_ioctl
+                0x00000000      0x48c ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .text.rtc_initialize
+                0x00000000       0x28 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .text.rtc_gettime
+                0x00000000       0xe8 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .text.rtc_settime
+                0x00000000       0x84 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_info    0x00000000      0x18e ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_abbrev  0x00000000       0xd6 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_aranges
+                0x00000000       0x30 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_ranges  0x00000000       0x20 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000       0x5f ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_line    0x00000000      0x204 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_str     0x00000000     0xdf8d ./Reproductor/src/FW_Drivers/rtc176x.o
+ .comment       0x00000000       0x6f ./Reproductor/src/FW_Drivers/rtc176x.o
+ .debug_frame   0x00000000       0x80 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/FW_Drivers/rtc176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/sound.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/sound.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/sound.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/sound.o
+ .text.sound_start
+                0x00000000      0x168 ./Reproductor/src/FW_Drivers/sound.o
+ .text.sound_stop
+                0x00000000       0x84 ./Reproductor/src/FW_Drivers/sound.o
+ .rodata        0x00000000       0x6e ./Reproductor/src/FW_Drivers/sound.o
+ .text.load_wav
+                0x00000000      0x598 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000       0xef ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/sound.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/startup176x.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/startup176x.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/startup176x.o
+ .STACK         0x00000000      0x800 ./Reproductor/src/FW_Drivers/startup176x.o
+ .VECTOR        0x00000000       0xcc ./Reproductor/src/FW_Drivers/startup176x.o
+ .text.Reset_Handler
+                0x00000000      0x100 ./Reproductor/src/FW_Drivers/startup176x.o
+ .text.Exception_Trap
+                0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .text.IRQ_Trap
+                0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .text.SVC_Handler
+                0x00000000        0x8 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_info    0x00000000      0x17b ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_abbrev  0x00000000       0xca ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_aranges
+                0x00000000       0x38 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_ranges  0x00000000       0x28 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000       0x87 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_line    0x00000000      0x1e3 ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_str     0x00000000     0xe028 ./Reproductor/src/FW_Drivers/startup176x.o
+ .comment       0x00000000       0x6f ./Reproductor/src/FW_Drivers/startup176x.o
+ .debug_frame   0x00000000       0x68 ./Reproductor/src/FW_Drivers/startup176x.o
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/FW_Drivers/startup176x.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .group         0x00000000        0x8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text          0x00000000        0x0 ./Reproductor/src/FW_Drivers/xprintf.o
+ .data          0x00000000        0x0 ./Reproductor/src/FW_Drivers/xprintf.o
+ .bss           0x00000000        0x0 ./Reproductor/src/FW_Drivers/xprintf.o
+ .bss.xfunc_out
+                0x00000000        0x4 ./Reproductor/src/FW_Drivers/xprintf.o
+ .bss.outptr    0x00000000        0x4 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xputc    0x00000000       0x50 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xputs    0x00000000       0x28 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xfputs   0x00000000       0x40 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xvprintf
+                0x00000000      0x2f8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xprintf  0x00000000       0x24 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xsprintf
+                0x00000000       0x40 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xfprintf
+                0x00000000       0x3c ./Reproductor/src/FW_Drivers/xprintf.o
+ .rodata        0x00000000       0x1f ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.put_dump
+                0x00000000       0xfc ./Reproductor/src/FW_Drivers/xprintf.o
+ .bss.xfunc_in  0x00000000        0x4 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xgets    0x00000000       0xa8 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xfgets   0x00000000       0x38 ./Reproductor/src/FW_Drivers/xprintf.o
+ .text.xatoi    0x00000000      0x150 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_info    0x00000000      0x4c2 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_abbrev  0x00000000      0x197 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_aranges
+                0x00000000       0x70 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_ranges  0x00000000       0x60 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_macro   0x00000000       0x32 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_macro   0x00000000       0x16 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_line    0x00000000      0x414 ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_str     0x00000000     0x274a ./Reproductor/src/FW_Drivers/xprintf.o
+ .comment       0x00000000       0x6f ./Reproductor/src/FW_Drivers/xprintf.o
+ .debug_frame   0x00000000      0x1e4 ./Reproductor/src/FW_Drivers/xprintf.o
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/FW_Drivers/xprintf.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/Maq_Serie.o
+ .text          0x00000000        0x0 ./Reproductor/src/Maq_Serie.o
+ .data          0x00000000        0x0 ./Reproductor/src/Maq_Serie.o
+ .bss           0x00000000        0x0 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/Maq_Serie.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./Reproductor/src/main.o
+ .text          0x00000000        0x0 ./Reproductor/src/main.o
+ .data          0x00000000        0x0 ./Reproductor/src/main.o
+ .bss           0x00000000        0x0 ./Reproductor/src/main.o
+ .bss.AccSize   0x00000000        0x4 ./Reproductor/src/main.o
+ .bss.AccFiles  0x00000000        0x2 ./Reproductor/src/main.o
+ .bss.AccDirs   0x00000000        0x2 ./Reproductor/src/main.o
+ .bss.Line      0x00000000      0x100 ./Reproductor/src/main.o
+ .bss.Timer     0x00000000        0x4 ./Reproductor/src/main.o
+ .bss.inxInLCD  0x00000000        0x4 ./Reproductor/src/main.o
+ .bss.inxOutLCD
+                0x00000000        0x4 ./Reproductor/src/main.o
+ .bss.cantidadColaLCD
+                0x00000000        0x4 ./Reproductor/src/main.o
+ .bss.bufferLCD
+                0x00000000       0x64 ./Reproductor/src/main.o
+ .bss.ptrLecturaLCD
+                0x00000000        0x1 ./Reproductor/src/main.o
+ .bss.ptrEscrituraLCD
+                0x00000000        0x1 ./Reproductor/src/main.o
+ .debug_macro   0x00000000      0x880 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/main.o
+ .debug_macro   0x00000000      0x12d ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x9a ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x1c ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xb8 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xf8 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xe8 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x94 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x7c ./Reproductor/src/main.o
+ .debug_macro   0x00000000      0x5b2 ./Reproductor/src/main.o
+ .debug_macro   0x00000000     0x1c25 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x46 ./Reproductor/src/main.o
+ .debug_macro   0x00000000      0x166 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xd0 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xac ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x10 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x4c ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x6a ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0x40 ./Reproductor/src/main.o
+ .debug_macro   0x00000000       0xa0 ./Reproductor/src/main.o
+ .group         0x00000000        0x8 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .text          0x00000000        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .data          0x00000000        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .bss           0x00000000        0x0 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_info    0x00000000       0x21 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_abbrev  0x00000000       0x13 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_aranges
+                0x00000000       0x18 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_macro   0x00000000       0x11 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_macro   0x00000000      0x880 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_line    0x00000000       0x58 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .debug_str     0x00000000     0x24ca ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .comment       0x00000000       0x6f ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .ARM.attributes
+                0x00000000       0x33 ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Reproductor/src/Primitivas/PR_7Seg.o
+LOAD ./Reproductor/src/Primitivas/PR_UART0.o
+LOAD ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+LOAD ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+LOAD ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+LOAD ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+LOAD ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+LOAD ./Reproductor/src/FW_Inicializaciones/crp.o
+LOAD ./Reproductor/src/FW_Drivers/FW_7Seg.o
+LOAD ./Reproductor/src/FW_Drivers/FW_GPIO.o
+LOAD ./Reproductor/src/FW_Drivers/FW_LCD.o
+LOAD ./Reproductor/src/FW_Drivers/FW_Systick.o
+LOAD ./Reproductor/src/FW_Drivers/FW_Timers.o
+LOAD ./Reproductor/src/FW_Drivers/FW_UART0.o
+LOAD ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+LOAD ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+LOAD ./Reproductor/src/FW_Drivers/ff.o
+LOAD ./Reproductor/src/FW_Drivers/ffsystem.o
+LOAD ./Reproductor/src/FW_Drivers/ffunicode.o
+LOAD ./Reproductor/src/FW_Drivers/mmc_ssp.o
+LOAD ./Reproductor/src/FW_Drivers/reproduccion.o
+LOAD ./Reproductor/src/FW_Drivers/rtc176x.o
+LOAD ./Reproductor/src/FW_Drivers/sound.o
+LOAD ./Reproductor/src/FW_Drivers/startup176x.o
+LOAD ./Reproductor/src/FW_Drivers/xprintf.o
+LOAD ./Reproductor/src/Maq_Serie.o
+LOAD ./Reproductor/src/main.o
+LOAD ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000    0x143d4
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x143d4 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x18 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x143d4 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000018 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x11c4 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x140 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e4                NMI_Handler
+                0x000001ec                HardFault_Handler
+                0x000001f4                MemManage_Handler
+                0x000001fc                BusFault_Handler
+                0x00000204                UsageFault_Handler
+                0x0000020c                SVCall_Handler
+                0x00000214                DebugMon_Handler
+                0x0000021c                PendSV_Handler
+                0x0000022c                EINT2_IRQHandler
+                0x0000022c                UART1_IRQHandler
+                0x0000022c                EINT3_IRQHandler
+                0x0000022c                CANActivity_IRQHandler
+                0x0000022c                PWM1_IRQHandler
+                0x0000022c                USBActivity_IRQHandler
+                0x0000022c                IntDefaultHandler
+                0x0000022c                PLL0_IRQHandler
+                0x0000022c                CAN_IRQHandler
+                0x0000022c                I2C0_IRQHandler
+                0x0000022c                SSP0_IRQHandler
+                0x0000022c                I2C1_IRQHandler
+                0x0000022c                I2C2_IRQHandler
+                0x0000022c                RTC_IRQHandler
+                0x0000022c                SPI_IRQHandler
+                0x0000022c                RIT_IRQHandler
+                0x0000022c                EINT1_IRQHandler
+                0x0000022c                TIMER1_IRQHandler
+                0x0000022c                UART2_IRQHandler
+                0x0000022c                ADC_IRQHandler
+                0x0000022c                SSP1_IRQHandler
+                0x0000022c                USB_IRQHandler
+                0x0000022c                BOD_IRQHandler
+                0x0000022c                I2S_IRQHandler
+                0x0000022c                WDT_IRQHandler
+                0x0000022c                QEI_IRQHandler
+                0x0000022c                EINT0_IRQHandler
+                0x0000022c                TIMER2_IRQHandler
+                0x0000022c                DMA_IRQHandler
+                0x0000022c                PLL1_IRQHandler
+                0x0000022c                UART3_IRQHandler
+                0x0000022c                MCPWM_IRQHandler
+                0x0000022c                ENET_IRQHandler
+ *(.text*)
+ .text.Display  0x00000234       0xdc ./Reproductor/src/Primitivas/PR_7Seg.o
+                0x00000234                Display
+ .text.PushTx0  0x00000310       0xa0 ./Reproductor/src/Primitivas/PR_UART0.o
+                0x00000310                PushTx0
+ .text.PopTx0   0x000003b0       0x84 ./Reproductor/src/Primitivas/PR_UART0.o
+                0x000003b0                PopTx0
+ .text.PushRx0  0x00000434       0x84 ./Reproductor/src/Primitivas/PR_UART0.o
+                0x00000434                PushRx0
+ .text.PopRx0   0x000004b8       0x84 ./Reproductor/src/Primitivas/PR_UART0.o
+                0x000004b8                PopRx0
+ .text.EnviarString0
+                0x0000053c       0x38 ./Reproductor/src/Primitivas/PR_UART0.o
+                0x0000053c                EnviarString0
+ .text.Inicializar_Display7s
+                0x00000574      0x120 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+                0x00000574                Inicializar_Display7s
+ .text.Inicializar_Relay
+                0x00000694       0x78 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+                0x00000694                Inicializar_Relay
+ .text.Inicializar_Teclado
+                0x0000070c       0xc8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x0000070c                Inicializar_Teclado
+ .text.Init_Dac
+                0x000007d4       0x44 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x000007d4                Init_Dac
+ .text.InicSysTick
+                0x00000818       0x40 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000818                InicSysTick
+ .text.InicTimer0
+                0x00000858       0xd8 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000858                InicTimer0
+ .text.PrenderTimer0
+                0x00000930       0x34 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000930                PrenderTimer0
+ .text.ApagarTimer0
+                0x00000964       0x28 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000964                ApagarTimer0
+ .text.InicializarKit
+                0x0000098c       0x7c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x0000098c                InicializarKit
+ .text.InicPLL  0x00000a08      0x140 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+                0x00000a08                InicPLL
+ .text.InitUART0
+                0x00000b48       0x78 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+                0x00000b48                InitUART0
+ .text.BarridoDisplay
+                0x00000bc0      0x1a0 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+                0x00000bc0                BarridoDisplay
+ .text.Write_Dac
+                0x00000d60       0x24 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000d60                Write_Dac
+ .text.SetPINSEL
+                0x00000d84       0x88 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000d84                SetPINSEL
+ .text.SetPINMODE
+                0x00000e0c       0x7c ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000e0c                SetPINMODE
+ .text.SetDIR   0x00000e88       0x70 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000e88                SetDIR
+ .text.SetPIN   0x00000ef8       0x74 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000ef8                SetPIN
+ .text.GetPIN   0x00000f6c       0x4c ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000f6c                GetPIN
+ .text.SetMODE_OD
+                0x00000fb8       0x60 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                0x00000fb8                SetMODE_OD
+ .text.LCDWaitLong
+                0x00001018       0x40 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x00001018                LCDWaitLong
+ .text.LCDWaitShort
+                0x00001058       0x40 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x00001058                LCDWaitShort
+ .text.LCDDelay
+                0x00001098       0x28 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x00001098                LCDDelay
+ .text.LatchLcd
+                0x000010c0       0x34 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x000010c0                LatchLcd
+ .text.Inic_PinesLCD
+                0x000010f4       0xf8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x000010f4                Inic_PinesLCD
+ .text.WComando8
+                0x000011ec       0xd8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x000011ec                WComando8
+ .text.WComando4
+                0x000012c4       0x78 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x000012c4                WComando4
+ .text.WDato    0x0000133c       0xd8 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x0000133c                WDato
+ .text.WString  0x00001414       0x28 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x00001414                WString
+ .text.Inic_LCD
+                0x0000143c       0x80 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                0x0000143c                Inic_LCD
+ .text.SysTick_Handler
+                0x000014bc      0x170 ./Reproductor/src/FW_Drivers/FW_Systick.o
+                0x000014bc                SysTick_Handler
+ .text.armarTramaACK
+                0x0000162c       0x64 ./Reproductor/src/FW_Drivers/FW_Systick.o
+                0x0000162c                armarTramaACK
+ .text.TIMER0_IRQHandler
+                0x00001690       0xec ./Reproductor/src/FW_Drivers/FW_Timers.o
+                0x00001690                TIMER0_IRQHandler
+ .text.reiniciarRTC
+                0x0000177c       0x30 ./Reproductor/src/FW_Drivers/FW_Timers.o
+                0x0000177c                reiniciarRTC
+ .text.prenderRTC
+                0x000017ac       0x1c ./Reproductor/src/FW_Drivers/FW_Timers.o
+                0x000017ac                prenderRTC
+ .text.apagarRTC
+                0x000017c8       0x1c ./Reproductor/src/FW_Drivers/FW_Timers.o
+                0x000017c8                apagarRTC
+ .text.UART0_IRQHandler
+                0x000017e4       0x74 ./Reproductor/src/FW_Drivers/FW_UART0.o
+                0x000017e4                UART0_IRQHandler
+ .text.getkey   0x00001858       0x24 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+                0x00001858                getkey
+ .text.DriverTeclado
+                0x0000187c       0x20 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+                0x0000187c                DriverTeclado
+ .text.TecladoSW
+                0x0000189c       0xc0 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+                0x0000189c                TecladoSW
+ .text.TecladoHW
+                0x0000195c       0x78 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+                0x0000195c                TecladoHW
+ .text.ld_word  0x000019d4       0x30 ./Reproductor/src/FW_Drivers/ff.o
+ .text.ld_dword
+                0x00001a04       0x44 ./Reproductor/src/FW_Drivers/ff.o
+ .text.st_word  0x00001a48       0x34 ./Reproductor/src/FW_Drivers/ff.o
+ .text.st_dword
+                0x00001a7c       0x58 ./Reproductor/src/FW_Drivers/ff.o
+ .text.mem_cpy  0x00001ad4       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.mem_set  0x00001b14       0x34 ./Reproductor/src/FW_Drivers/ff.o
+ .text.mem_cmp  0x00001b48       0x4c ./Reproductor/src/FW_Drivers/ff.o
+ .text.chk_chr  0x00001b94       0x34 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dbc_1st  0x00001bc8       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dbc_2nd  0x00001c08       0x54 ./Reproductor/src/FW_Drivers/ff.o
+ .text.tchar2uni
+                0x00001c5c       0x8c ./Reproductor/src/FW_Drivers/ff.o
+ .text.put_utf  0x00001ce8       0x70 ./Reproductor/src/FW_Drivers/ff.o
+ .text.sync_window
+                0x00001d58       0x78 ./Reproductor/src/FW_Drivers/ff.o
+ .text.move_window
+                0x00001dd0       0x5c ./Reproductor/src/FW_Drivers/ff.o
+ .text.clst2sect
+                0x00001e2c       0x3c ./Reproductor/src/FW_Drivers/ff.o
+ .text.get_fat  0x00001e68      0x14c ./Reproductor/src/FW_Drivers/ff.o
+ .text.put_fat  0x00001fb4      0x1d4 ./Reproductor/src/FW_Drivers/ff.o
+ .text.remove_chain
+                0x00002188       0xcc ./Reproductor/src/FW_Drivers/ff.o
+ .text.create_chain
+                0x00002254      0x1a4 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_clear
+                0x000023f8       0x90 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_sdi  0x00002488       0xf8 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_next
+                0x00002580      0x128 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_alloc
+                0x000026a8       0x90 ./Reproductor/src/FW_Drivers/ff.o
+ .text.ld_clust
+                0x00002738       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.st_clust
+                0x00002778       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.cmp_lfn  0x000027b8       0xdc ./Reproductor/src/FW_Drivers/ff.o
+ .text.pick_lfn
+                0x00002894       0xc8 ./Reproductor/src/FW_Drivers/ff.o
+ .text.put_lfn  0x0000295c       0xd0 ./Reproductor/src/FW_Drivers/ff.o
+ .text.gen_numname
+                0x00002a2c      0x144 ./Reproductor/src/FW_Drivers/ff.o
+ .text.sum_sfn  0x00002b70       0x40 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_read
+                0x00002bb0      0x150 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_find
+                0x00002d00      0x180 ./Reproductor/src/FW_Drivers/ff.o
+ .text.dir_register
+                0x00002e80      0x1f0 ./Reproductor/src/FW_Drivers/ff.o
+ .text.get_fileinfo
+                0x00003070      0x22c ./Reproductor/src/FW_Drivers/ff.o
+ .text.create_name
+                0x0000329c      0x430 ./Reproductor/src/FW_Drivers/ff.o
+ .text.follow_path
+                0x000036cc      0x11c ./Reproductor/src/FW_Drivers/ff.o
+ .text.get_ldnumber
+                0x000037e8       0x90 ./Reproductor/src/FW_Drivers/ff.o
+ .text.check_fs
+                0x00003878       0xac ./Reproductor/src/FW_Drivers/ff.o
+ .text.find_volume
+                0x00003924      0x4c0 ./Reproductor/src/FW_Drivers/ff.o
+ .text.validate
+                0x00003de4       0x6c ./Reproductor/src/FW_Drivers/ff.o
+ .text.f_mount  0x00003e50       0x80 ./Reproductor/src/FW_Drivers/ff.o
+                0x00003e50                f_mount
+ .text.f_open   0x00003ed0      0x2f4 ./Reproductor/src/FW_Drivers/ff.o
+                0x00003ed0                f_open
+ .text.f_read   0x000041c4      0x268 ./Reproductor/src/FW_Drivers/ff.o
+                0x000041c4                f_read
+ .text.f_opendir
+                0x0000442c       0xb4 ./Reproductor/src/FW_Drivers/ff.o
+                0x0000442c                f_opendir
+ .text.f_readdir
+                0x000044e0       0x7c ./Reproductor/src/FW_Drivers/ff.o
+                0x000044e0                f_readdir
+ .text.ff_uni2oem
+                0x0000455c       0xb0 ./Reproductor/src/FW_Drivers/ffunicode.o
+                0x0000455c                ff_uni2oem
+ .text.ff_oem2uni
+                0x0000460c       0xa8 ./Reproductor/src/FW_Drivers/ffunicode.o
+                0x0000460c                ff_oem2uni
+ .text.ff_wtoupper
+                0x000046b4      0x120 ./Reproductor/src/FW_Drivers/ffunicode.o
+                0x000046b4                ff_wtoupper
+ .text.xchg_spi
+                0x000047d4       0x38 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.rcvr_spi_multi
+                0x0000480c       0xe4 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.xmit_spi_multi
+                0x000048f0       0xe4 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.wait_ready
+                0x000049d4       0x40 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.deselect
+                0x00004a14       0x18 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.select   0x00004a2c       0x30 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.power_on
+                0x00004a5c       0xb0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.power_off
+                0x00004b0c       0x10 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.rcvr_datablock
+                0x00004b1c       0x54 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.xmit_datablock
+                0x00004b70       0x68 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.send_cmd
+                0x00004bd8       0xe0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .text.disk_initialize
+                0x00004cb8      0x1b4 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                0x00004cb8                disk_initialize
+ .text.disk_status
+                0x00004e6c       0x28 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                0x00004e6c                disk_status
+ .text.disk_read
+                0x00004e94       0xb8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                0x00004e94                disk_read
+ .text.disk_write
+                0x00004f4c       0xf8 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                0x00004f4c                disk_write
+ .text.disk_timerproc
+                0x00005044       0x68 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                0x00005044                disk_timerproc
+ .text.cargarBuffer
+                0x000050ac       0x50 ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x000050ac                cargarBuffer
+ .text.FileList_Fill
+                0x000050fc       0x64 ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x000050fc                FileList_Fill
+ .text.AnteriorTema
+                0x00005160       0xac ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x00005160                AnteriorTema
+ .text.SiguienteTema
+                0x0000520c       0xb0 ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x0000520c                SiguienteTema
+ .text.reproducirActual
+                0x000052bc       0x90 ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x000052bc                reproducirActual
+ .text.ArrancarReproduccion
+                0x0000534c       0x5c ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x0000534c                ArrancarReproduccion
+ .text.PausarReproduccion
+                0x000053a8       0x64 ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x000053a8                PausarReproduccion
+ .text.maqreproduccion
+                0x0000540c       0x5c ./Reproductor/src/FW_Drivers/reproduccion.o
+                0x0000540c                maqreproduccion
+ .text.TIMER3_IRQHandler
+                0x00005468      0x1ac ./Reproductor/src/FW_Drivers/sound.o
+                0x00005468                TIMER3_IRQHandler
+ .text.maq1     0x00005614      0x144 ./Reproductor/src/Maq_Serie.o
+                0x00005614                maq1
+ .text.mandarlista
+                0x00005758       0xb8 ./Reproductor/src/Maq_Serie.o
+                0x00005758                mandarlista
+ .text.main     0x00005810      0x10c ./Reproductor/src/main.o
+                0x00005810                main
+ .text.__weak_main
+                0x0000591c        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x0000591c                __weak_main
+                0x0000591c                __main
+ .text.strcat   0x00005920       0x1e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+                0x00005920                strcat
+ .text.strcpy   0x0000593e       0x42 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+                0x0000593e                strcpy
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x00005980        0x6 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ *fill*         0x00005986        0x2 ff
+ .rodata.LfnOfs
+                0x00005988        0xd ./Reproductor/src/FW_Drivers/ff.o
+ *fill*         0x00005995        0x3 ff
+ .rodata        0x00005998       0x54 ./Reproductor/src/FW_Drivers/ff.o
+ .rodata.uni2oem932
+                0x000059ec     0x7378 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .rodata.oem2uni932
+                0x0000cd64     0x7378 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .rodata.cvt1.3929
+                0x000140dc      0x1f2 ./Reproductor/src/FW_Drivers/ffunicode.o
+ *fill*         0x000142ce        0x2 ff
+ .rodata.cvt2.3930
+                0x000142d0       0xbc ./Reproductor/src/FW_Drivers/ffunicode.o
+ .rodata        0x0001438c       0x2c ./Reproductor/src/FW_Drivers/reproduccion.o
+ .rodata        0x000143b8        0x6 ./Reproductor/src/Maq_Serie.o
+ *fill*         0x000143be        0x2 ff
+ .rodata        0x000143c0       0x11 ./Reproductor/src/main.o
+                0x000143d4                . = ALIGN (0x4)
+ *fill*         0x000143d1        0x3 ff
+
+.glue_7         0x000143d4        0x0
+ .glue_7        0x000143d4        0x0 linker stubs
+
+.glue_7t        0x000143d4        0x0
+ .glue_7t       0x000143d4        0x0 linker stubs
+
+.vfp11_veneer   0x000143d4        0x0
+ .vfp11_veneer  0x000143d4        0x0 linker stubs
+
+.v4_bx          0x000143d4        0x0
+ .v4_bx         0x000143d4        0x0 linker stubs
+
+.iplt           0x000143d4        0x0
+ .iplt          0x000143d4        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+
+.rel.dyn        0x000143d4        0x0
+ .rel.iplt      0x000143d4        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000143d4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000143d4                __exidx_end = .
+                0x000143d4                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x000143d4
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000       0x18 load address 0x000143d4
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.Tabla_Digitos_BCD_7seg
+                0x10000000        0xa ./Reproductor/src/Primitivas/PR_7Seg.o
+                0x10000000                Tabla_Digitos_BCD_7seg
+ .data.ack.4588
+                0x1000000a        0x2 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .data.codAnt.4586
+                0x1000000c        0x1 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .data.Stat     0x1000000d        0x1 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .data.tx0_buffer_empty
+                0x1000000e        0x1 ./Reproductor/src/main.o
+                0x1000000e                tx0_buffer_empty
+ .data.rx0_buffer_empty
+                0x1000000f        0x1 ./Reproductor/src/main.o
+                0x1000000f                rx0_buffer_empty
+ .data.buffKey  0x10000010        0x1 ./Reproductor/src/main.o
+                0x10000010                buffKey
+ .data.tecla    0x10000011        0x1 ./Reproductor/src/main.o
+                0x10000011                tecla
+ .data.timeoutSerie
+                0x10000012        0x2 ./Reproductor/src/main.o
+                0x10000012                timeoutSerie
+ .data.f_tick_rtc
+                0x10000014        0x4 ./Reproductor/src/main.o
+                0x10000014                f_tick_rtc
+                0x10000018                . = ALIGN (0x4)
+                0x10000018                _edata = .
+
+.igot.plt       0x10000018        0x0 load address 0x000143ec
+ .igot.plt      0x10000018        0x0 ./Reproductor/src/Primitivas/PR_7Seg.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000018     0x11c4
+                0x10000018                _bss = .
+ *(.bss*)
+ .bss.digito.4578
+                0x10000018        0x1 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ *fill*         0x10000019        0x1 
+ .bss.flameo.4587
+                0x1000001a        0x2 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .bss.actual.4587
+                0x1000001c        0x1 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ *fill*         0x1000001d        0x3 
+ .bss.i.4586    0x10000020        0x4 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .bss.cont.4589
+                0x10000024        0x4 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .bss.estado.4587
+                0x10000028        0x1 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ *fill*         0x10000029        0x3 
+ .bss.FatFs     0x1000002c        0x4 ./Reproductor/src/FW_Drivers/ff.o
+ .bss.Fsid      0x10000030        0x2 ./Reproductor/src/FW_Drivers/ff.o
+ *fill*         0x10000032        0x2 
+ .bss.LfnBuf    0x10000034      0x200 ./Reproductor/src/FW_Drivers/ff.o
+ .bss.Timer1    0x10000234        0x4 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .bss.Timer2    0x10000238        0x4 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .bss.CardType  0x1000023c        0x1 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ *fill*         0x1000023d        0x3 
+ .bss.WavFifo   0x10000240        0x4 ./Reproductor/src/FW_Drivers/sound.o
+ .bss.estado.4581
+                0x10000244        0x1 ./Reproductor/src/Maq_Serie.o
+ .bss.contenidoTrama.4582
+                0x10000245        0x1 ./Reproductor/src/Maq_Serie.o
+ *fill*         0x10000246        0x2 
+ .bss.msgDisplay
+                0x10000248        0x6 ./Reproductor/src/main.o
+                0x10000248                msgDisplay
+ *fill*         0x1000024e        0x2 
+ .bss.bufferTx0
+                0x10000250       0x64 ./Reproductor/src/main.o
+                0x10000250                bufferTx0
+ .bss.bufferRx0
+                0x100002b4       0x64 ./Reproductor/src/main.o
+                0x100002b4                bufferRx0
+ .bss.tx0_in    0x10000318        0x1 ./Reproductor/src/main.o
+                0x10000318                tx0_in
+ .bss.tx0_out   0x10000319        0x1 ./Reproductor/src/main.o
+                0x10000319                tx0_out
+ .bss.rx0_in    0x1000031a        0x1 ./Reproductor/src/main.o
+                0x1000031a                rx0_in
+ .bss.rx0_out   0x1000031b        0x1 ./Reproductor/src/main.o
+                0x1000031b                rx0_out
+ .bss.tx0_buffer_full
+                0x1000031c        0x1 ./Reproductor/src/main.o
+                0x1000031c                tx0_buffer_full
+ .bss.rx0_buffer_full
+                0x1000031d        0x1 ./Reproductor/src/main.o
+                0x1000031d                rx0_buffer_full
+ .bss.tx0Start  0x1000031e        0x1 ./Reproductor/src/main.o
+                0x1000031e                tx0Start
+ *fill*         0x1000031f        0x1 
+ .bss.Finfo     0x10000320      0x118 ./Reproductor/src/main.o
+                0x10000320                Finfo
+ .bss.FatFs     0x10000438      0x238 ./Reproductor/src/main.o
+                0x10000438                FatFs
+ .bss.File      0x10000670      0x228 ./Reproductor/src/main.o
+                0x10000670                File
+ .bss.Dir       0x10000898       0x30 ./Reproductor/src/main.o
+                0x10000898                Dir
+ .bss.FileList  0x100008c8      0x104 ./Reproductor/src/main.o
+                0x100008c8                FileList
+ .bss.MAX_FILE  0x100009cc        0x1 ./Reproductor/src/main.o
+                0x100009cc                MAX_FILE
+ .bss.estado2   0x100009cd        0x1 ./Reproductor/src/main.o
+                0x100009cd                estado2
+ *fill*         0x100009ce        0x2 
+ .bss.bufferswav
+                0x100009d0      0x800 ./Reproductor/src/main.o
+                0x100009d0                bufferswav
+ .bss.cant      0x100011d0        0x4 ./Reproductor/src/main.o
+                0x100011d0                cant
+ .bss.ArchivoActual
+                0x100011d4        0x1 ./Reproductor/src/main.o
+                0x100011d4                ArchivoActual
+ .bss.delayteclado
+                0x100011d5        0x1 ./Reproductor/src/main.o
+                0x100011d5                delayteclado
+ .bss.flagtermino
+                0x100011d6        0x1 ./Reproductor/src/main.o
+                0x100011d6                flagtermino
+ *fill*         0x100011d7        0x1 
+ .bss.demoraLCD
+                0x100011d8        0x4 ./Reproductor/src/main.o
+                0x100011d8                demoraLCD
+ *(COMMON)
+                0x100011dc                . = ALIGN (0x4)
+                0x100011dc                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x100011dc        0x0
+                0x100011dc                _noinit = .
+ *(.noinit*)
+                0x100011dc                . = ALIGN (0x4)
+                0x100011dc                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                [!provide]                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(TPO_MP3.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x59da
+ .debug_info    0x00000000      0x20d ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_info    0x0000020d      0x1f5 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_info    0x00000402       0x96 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_info    0x00000498       0xb8 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_info    0x00000550      0x240 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_info    0x00000790       0x88 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_info    0x00000818       0x96 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_info    0x000008ae       0xe5 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_info    0x00000993      0x2b8 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_info    0x00000c4b      0x321 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_info    0x00000f6c      0x185 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_info    0x000010f1      0x39f ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_info    0x00001490       0xcd ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_info    0x0000155d      0x173 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_info    0x000016d0      0x250 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_info    0x00001920     0x2387 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_info    0x00003ca7      0x2cc ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_info    0x00003f73      0x5d1 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_info    0x00004544      0x54c ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_info    0x00004a90      0x581 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_info    0x00005011      0x1b0 ./Reproductor/src/Maq_Serie.o
+ .debug_info    0x000051c1      0x819 ./Reproductor/src/main.o
+
+.debug_abbrev   0x00000000     0x1389
+ .debug_abbrev  0x00000000      0x110 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_abbrev  0x00000110       0xcc ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_abbrev  0x000001dc       0x45 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_abbrev  0x00000221       0x45 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_abbrev  0x00000266       0xee ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_abbrev  0x00000354       0x45 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_abbrev  0x00000399       0x45 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_abbrev  0x000003de       0x89 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_abbrev  0x00000467       0xd6 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_abbrev  0x0000053d      0x154 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_abbrev  0x00000691       0xb4 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_abbrev  0x00000745      0x104 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_abbrev  0x00000849       0x83 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_abbrev  0x000008cc       0xeb ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_abbrev  0x000009b7       0xf5 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_abbrev  0x00000aac      0x18a ./Reproductor/src/FW_Drivers/ff.o
+ .debug_abbrev  0x00000c36       0xbd ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_abbrev  0x00000cf3      0x20c ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_abbrev  0x00000eff      0x12b ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_abbrev  0x0000102a      0x15e ./Reproductor/src/FW_Drivers/sound.o
+ .debug_abbrev  0x00001188       0xc4 ./Reproductor/src/Maq_Serie.o
+ .debug_abbrev  0x0000124c      0x13d ./Reproductor/src/main.o
+
+.debug_aranges  0x00000000      0x748
+ .debug_aranges
+                0x00000000       0x20 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_aranges
+                0x00000020       0x40 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_aranges
+                0x00000060       0x20 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_aranges
+                0x00000080       0x30 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_aranges
+                0x000000b0       0x60 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_aranges
+                0x00000110       0x20 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_aranges
+                0x00000130       0x20 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_aranges
+                0x00000150       0x20 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_aranges
+                0x00000170       0x58 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_aranges
+                0x000001c8       0x80 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_aranges
+                0x00000248       0x28 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_aranges
+                0x00000270       0x38 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_aranges
+                0x000002a8       0x20 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_aranges
+                0x000002c8       0x38 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_aranges
+                0x00000300       0x80 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000380      0x220 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_aranges
+                0x000005a0       0x30 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_aranges
+                0x000005d0       0xa0 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_aranges
+                0x00000670       0x58 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_aranges
+                0x000006c8       0x38 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_aranges
+                0x00000700       0x28 ./Reproductor/src/Maq_Serie.o
+ .debug_aranges
+                0x00000728       0x20 ./Reproductor/src/main.o
+
+.debug_ranges   0x00000000      0x618
+ .debug_ranges  0x00000000       0x10 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_ranges  0x00000010       0x30 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_ranges  0x00000040       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_ranges  0x00000050       0x20 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_ranges  0x00000070       0x50 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_ranges  0x000000c0       0x10 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_ranges  0x000000d0       0x10 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_ranges  0x000000e0       0x10 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_ranges  0x000000f0       0x48 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_ranges  0x00000138       0x70 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_ranges  0x000001a8       0x18 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_ranges  0x000001c0       0x28 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_ranges  0x000001e8       0x10 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_ranges  0x000001f8       0x28 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_ranges  0x00000220       0x70 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_ranges  0x00000290      0x210 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_ranges  0x000004a0       0x20 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_ranges  0x000004c0       0x90 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_ranges  0x00000550       0x48 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_ranges  0x00000598       0x28 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_ranges  0x000005c0       0x48 ./Reproductor/src/Maq_Serie.o
+ .debug_ranges  0x00000608       0x10 ./Reproductor/src/main.o
+
+.debug_macro    0x00000000     0x7032
+ .debug_macro   0x00000000      0x141 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000141      0x880 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000009c1       0x10 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000009d1      0x12d ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000afe       0x9a ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000b98       0x1c ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000bb4       0xb8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000c6c       0xf8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000d64       0xe8 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000e4c       0x94 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000ee0       0x7c ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000f5c      0x5b2 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x0000150e     0x1c25 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00003133       0x46 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00003179      0x166 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000032df       0xd0 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000033af       0xac ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x0000345b       0x10 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x0000346b       0x4c ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000034b7       0x6a ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00003521       0x40 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00003561       0xa0 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00003601      0x141 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_macro   0x00003742      0x125 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00003867      0x16c ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x000039d3       0xd6 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00003aa9       0xa0 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_macro   0x00003b49      0x125 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_macro   0x00003c6e      0x125 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00003d93       0x54 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00003de7      0x125 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_macro   0x00003f0c      0x141 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x0000404d      0x145 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00004192       0x78 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x0000420a      0x153 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x0000435d      0x141 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_macro   0x0000449e      0x141 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_macro   0x000045df      0x141 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00004720       0x1d ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_macro   0x0000473d      0x4b1 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_macro   0x00004bee       0xef ./Reproductor/src/FW_Drivers/ff.o
+ .debug_macro   0x00004cdd       0xd0 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_macro   0x00004dad       0x3f ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_macro   0x00004dec      0x15f ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00004f4b     0x1c25 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_macro   0x00006b70      0x141 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_macro   0x00006cb1       0xdd ./Reproductor/src/FW_Drivers/sound.o
+ .debug_macro   0x00006d8e      0x159 ./Reproductor/src/Maq_Serie.o
+ .debug_macro   0x00006ee7      0x14b ./Reproductor/src/main.o
+
+.debug_line     0x00000000     0x5567
+ .debug_line    0x00000000      0x2d7 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_line    0x000002d7      0x326 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_line    0x000005fd      0x293 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_line    0x00000890      0x2ba ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_line    0x00000b4a      0x35f ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_line    0x00000ea9      0x1c6 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_line    0x0000106f      0x27e ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_line    0x000012ed      0x2c6 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_line    0x000015b3      0x355 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_line    0x00001908      0x368 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_line    0x00001c70      0x2e9 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_line    0x00001f59      0x2f9 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_line    0x00002252      0x2b7 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_line    0x00002509      0x338 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_line    0x00002841       0xe8 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_line    0x00002929     0x1750 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_line    0x00004079      0x19d ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_line    0x00004216      0x607 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_line    0x0000481d      0x398 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_line    0x00004bb5      0x3d0 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_line    0x00004f85      0x311 ./Reproductor/src/Maq_Serie.o
+ .debug_line    0x00005296      0x2d1 ./Reproductor/src/main.o
+
+.debug_str      0x00000000    0x1491e
+ .debug_str     0x00000000     0xfa31 ./Reproductor/src/Primitivas/PR_7Seg.o
+                               0xfb35 (size before relaxing)
+ .debug_str     0x0000fa31       0xd7 ./Reproductor/src/Primitivas/PR_UART0.o
+                               0xfb2e (size before relaxing)
+ .debug_str     0x0000fb08       0x51 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+                               0xfaa0 (size before relaxing)
+ .debug_str     0x0000fb59       0x73 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+                               0xfac2 (size before relaxing)
+ .debug_str     0x0000fbcc       0xd1 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+                               0xfba1 (size before relaxing)
+ .debug_str     0x0000fc9d       0x42 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+                               0xe2f5 (size before relaxing)
+ .debug_str     0x0000fcdf       0x40 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+                               0xfa8f (size before relaxing)
+ .debug_str     0x0000fd1f       0x47 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+                               0xfaa9 (size before relaxing)
+ .debug_str     0x0000fd66       0x92 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+                               0xfb11 (size before relaxing)
+ .debug_str     0x0000fdf8       0xf1 ./Reproductor/src/FW_Drivers/FW_LCD.o
+                               0xe685 (size before relaxing)
+ .debug_str     0x0000fee9      0x11b ./Reproductor/src/FW_Drivers/FW_Systick.o
+                               0xfb85 (size before relaxing)
+ .debug_str     0x00010004      0x167 ./Reproductor/src/FW_Drivers/FW_Timers.o
+                               0xfbdd (size before relaxing)
+ .debug_str     0x0001016b       0x3a ./Reproductor/src/FW_Drivers/FW_UART0.o
+                               0xfa9f (size before relaxing)
+ .debug_str     0x000101a5       0x86 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+                               0xfaf6 (size before relaxing)
+ .debug_str     0x0001022b      0x1c9 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+                               0x2687 (size before relaxing)
+ .debug_str     0x000103f4     0x3c73 ./Reproductor/src/FW_Drivers/ff.o
+                               0x69cd (size before relaxing)
+ .debug_str     0x00014067       0x9d ./Reproductor/src/FW_Drivers/ffunicode.o
+                               0x2aca (size before relaxing)
+ .debug_str     0x00014104      0x466 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+                               0xe5f7 (size before relaxing)
+ .debug_str     0x0001456a       0xda ./Reproductor/src/FW_Drivers/reproduccion.o
+                               0xfc94 (size before relaxing)
+ .debug_str     0x00014644      0x198 ./Reproductor/src/FW_Drivers/sound.o
+                               0xe8e6 (size before relaxing)
+ .debug_str     0x000147dc       0x97 ./Reproductor/src/Maq_Serie.o
+                               0xfb4c (size before relaxing)
+ .debug_str     0x00014873       0xab ./Reproductor/src/main.o
+                               0xfe8c (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./Reproductor/src/Primitivas/PR_7Seg.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./Reproductor/src/Primitivas/PR_UART0.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/ff.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/ffunicode.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/reproduccion.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/FW_Drivers/sound.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/Maq_Serie.o
+ .comment       0x0000006e       0x6f ./Reproductor/src/main.o
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .ARM.attributes
+                0x00000033       0x33 ./Reproductor/src/Primitivas/PR_UART0.o
+ .ARM.attributes
+                0x00000066       0x33 ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .ARM.attributes
+                0x00000099       0x33 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .ARM.attributes
+                0x000000cc       0x33 ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .ARM.attributes
+                0x000000ff       0x33 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .ARM.attributes
+                0x00000132       0x33 ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .ARM.attributes
+                0x00000165       0x33 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .ARM.attributes
+                0x00000198       0x33 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .ARM.attributes
+                0x000001cb       0x33 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .ARM.attributes
+                0x000001fe       0x33 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .ARM.attributes
+                0x00000231       0x33 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .ARM.attributes
+                0x00000264       0x33 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .ARM.attributes
+                0x00000297       0x33 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .ARM.attributes
+                0x000002ca       0x33 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x000002fd       0x33 ./Reproductor/src/FW_Drivers/ff.o
+ .ARM.attributes
+                0x00000330       0x33 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .ARM.attributes
+                0x00000363       0x33 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .ARM.attributes
+                0x00000396       0x33 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .ARM.attributes
+                0x000003c9       0x33 ./Reproductor/src/FW_Drivers/sound.o
+ .ARM.attributes
+                0x000003fc       0x33 ./Reproductor/src/Maq_Serie.o
+ .ARM.attributes
+                0x0000042f       0x33 ./Reproductor/src/main.o
+ .ARM.attributes
+                0x00000462       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000495       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcat.o)
+ .ARM.attributes
+                0x000004c8       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+
+.debug_frame    0x00000000     0x1894
+ .debug_frame   0x00000000       0x38 ./Reproductor/src/Primitivas/PR_7Seg.o
+ .debug_frame   0x00000038       0xd4 ./Reproductor/src/Primitivas/PR_UART0.o
+ .debug_frame   0x0000010c       0x2c ./Reproductor/src/FW_Inicializaciones/FW_InitExpansion2.o
+ .debug_frame   0x00000138       0x64 ./Reproductor/src/FW_Inicializaciones/FW_InitGPIOBaseBoard.o
+ .debug_frame   0x0000019c      0x11c ./Reproductor/src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_frame   0x000002b8       0x30 ./Reproductor/src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_frame   0x000002e8       0x2c ./Reproductor/src/FW_Inicializaciones/FW_initUART0.o
+ .debug_frame   0x00000314       0x34 ./Reproductor/src/FW_Drivers/FW_7Seg.o
+ .debug_frame   0x00000348      0x150 ./Reproductor/src/FW_Drivers/FW_GPIO.o
+ .debug_frame   0x00000498      0x1e4 ./Reproductor/src/FW_Drivers/FW_LCD.o
+ .debug_frame   0x0000067c       0x58 ./Reproductor/src/FW_Drivers/FW_Systick.o
+ .debug_frame   0x000006d4       0x94 ./Reproductor/src/FW_Drivers/FW_Timers.o
+ .debug_frame   0x00000768       0x34 ./Reproductor/src/FW_Drivers/FW_UART0.o
+ .debug_frame   0x0000079c       0xa8 ./Reproductor/src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_frame   0x00000844      0x170 ./Reproductor/src/FW_Drivers/cr_startup_lpc176x.o
+ .debug_frame   0x000009b4      0x9a0 ./Reproductor/src/FW_Drivers/ff.o
+ .debug_frame   0x00001354       0x88 ./Reproductor/src/FW_Drivers/ffunicode.o
+ .debug_frame   0x000013dc      0x274 ./Reproductor/src/FW_Drivers/mmc_ssp.o
+ .debug_frame   0x00001650      0x108 ./Reproductor/src/FW_Drivers/reproduccion.o
+ .debug_frame   0x00001758       0xb0 ./Reproductor/src/FW_Drivers/sound.o
+ .debug_frame   0x00001808       0x5c ./Reproductor/src/Maq_Serie.o
+ .debug_frame   0x00001864       0x30 ./Reproductor/src/main.o
