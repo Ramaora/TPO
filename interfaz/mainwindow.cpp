@@ -128,15 +128,13 @@ void MainWindow::maqestado(const QByteArray data){
             aux2=p[0]-1;
             ui->lcdNumberM->display(p[1]-1);
             ui->lcdNumberS->display(p[2]);
-            //ui->listacanciones->setDisabled(true);
             int j = ui->listacanciones->currentIndex();
-            if((ui->listacanciones->currentIndex()!= aux2) && (flagcambiar)){
+            if((j!= aux2) && (flagcambiar)){
                 flagcambiar=false;
                 QTimer::singleShot(200, this, SLOT(bajarflag()));
                 ui->listacanciones->setCurrentIndex(aux2);
 
              }
-           // ui->listacanciones->setDisabled(false);
             return;
            }
      }else{
@@ -187,17 +185,21 @@ void MainWindow::on_pushButton_conectar_clicked()
     if (!puertoabierto){
         puertoabierto=!puertoabierto;
         ui->pushButton_conectar->setText("DESCONECTAR");
-    puerto=new QSerialPort(ui->comboBox_puertos->currentText());
-    puerto->setBaudRate(QSerialPort::Baud9600);
-    puerto->setDataBits(QSerialPort::DataBits::Data8);
-    puerto->setFlowControl(QSerialPort::FlowControl::NoFlowControl);
-    puerto->setStopBits(QSerialPort::StopBits::OneStop);
-    puerto->setParity(QSerialPort::Parity::NoParity);
+        puerto=new QSerialPort(ui->comboBox_puertos->currentText());
+        puerto->setBaudRate(QSerialPort::Baud9600);
+        puerto->setDataBits(QSerialPort::DataBits::Data8);
+        puerto->setFlowControl(QSerialPort::FlowControl::NoFlowControl);
+        puerto->setStopBits(QSerialPort::StopBits::OneStop);
+        puerto->setParity(QSerialPort::Parity::NoParity);
 
 
     if (puerto->open(QIODevice::ReadWrite)){
-        ui->LABELCANCION->setText("CONECTADO");}else
-        {ui->LABELCANCION->setText ("ERROR");}
+        ui->LABELCANCION->setText("CONECTADO");
+    }
+    else
+    {
+        ui->LABELCANCION->setText ("ERROR");
+    }
     connect(puerto, SIGNAL(readyRead()),this,SLOT(onDatosRecibidos()));
     }else{
         puerto->close();
