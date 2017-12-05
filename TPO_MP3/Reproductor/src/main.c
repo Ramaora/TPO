@@ -15,6 +15,10 @@
 #include "../../Reproductor/inc/Aplicacion.h"
 #include "../../Reproductor/inc/globales.h"
 
+#define LED2OFF SetPIN(LED2,OFF)
+#define LED3ON SetPIN(LED3,ON)
+#define LED4ON SetPIN(LED4,ON)
+
 int main(void) {
 	ApagarTimer0();
 	InicializarKit();
@@ -38,10 +42,9 @@ int main(void) {
 	FileList_Fill();
 
 	if (f_open(&File, FileList[ArchivoActual] , FA_READ)!=FR_OK){
-		SetPIN(LED2,OFF);
-		SetPIN(LED3,ON);
-		SetPIN(LED4,ON);
-		//printf ("error al abrir archivo;");
+		LED2OFF;
+		LED3ON;
+		LED4ON;
 	}
 
 	cargarBuffer();
