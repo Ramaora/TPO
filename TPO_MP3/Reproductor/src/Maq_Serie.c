@@ -17,6 +17,7 @@ extern uint8_t MAX_FILE;
 
 #define INICIO_TRAMA 'a'
 #define FINAL_TRAMA 'j'
+
 /**
  * \fn void maq1 (void)
  * \brief Maquina de estado com. Serie
